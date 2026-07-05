@@ -1,0 +1,122 @@
+---
+import { getLangFromUrl, useTranslations, getRouteFromUrl } from '../i18n/utils';
+import ThemeToggle from './ThemeToggle.astro';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const otherLang = lang === 'tr' ? 'en' : 'tr';
+const otherLangUrl = getRouteFromUrl(Astro.url, otherLang);
+
+const navLinks = [
+  { href: lang === 'tr' ? '/' : '/en/', label: t('nav.home') },
+  { href: lang === 'tr' ? '/hakkimizda' : '/en/about', label: t('nav.about') },
+  { href: lang === 'tr' ? '/#uzmanliklar' : '/en/#practice', label: t('nav.practice') },
+  { href: lang === 'tr' ? '/makaleler' : '/en/articles', label: t('nav.blog') },
+  { href: lang === 'tr' ? '/iletisim' : '/en/contact', label: t('nav.contact') },
+];
+---
+
+<header class="sticky top-0 z-50 bg-glass transition-all duration-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    <!-- Logo -->
+    <a href={lang === 'tr' ? '/' : '/en/'} class="flex items-center gap-2 group">
+      <div class="w-10 h-10 rounded-sm bg-navy-900 dark:bg-gold-500/20 border border-gold-500/40 flex items-center justify-center transition-transform group-hover:scale-105">
+        <span class="font-serif font-bold text-xl text-gradient-gold">NS</span>
+      </div>
+      <div class="flex flex-col">
+        <span class="font-serif font-bold text-lg leading-tight tracking-wider text-navy-900 dark:text-cream-100">
+          NS HUKUK
+        </span>
+        <span class="text-[10px] tracking-[0.2em] text-gold-600 dark:text-gold-400 font-sans uppercase">
+          {lang === 'tr' ? 'Danışmanlık' : '& Consultancy'}
+        </span>
+      </div>
+    </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex items-center gap-8">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class="text-sm font-medium text-navy-800 dark:text-cream-200 hover:text-gold-600 dark:hover:text-gold-400 transition-colors py-2 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gold-500 hover:after:w-full after:transition-all"
+        >
+          {link.label}
+        </a>
+      ))}
+    </nav>
+
+    <!-- Right Controls -->
+    <div class="hidden md:flex items-center gap-4">
+      <!-- Lang Switcher -->
+      <a
+        href={otherLangUrl}
+        class="px-2.5 py-1 text-xs font-semibold uppercase tracking-wider rounded border border-navy-900/20 dark:border-white/20 hover:border-gold-500 hover:text-gold-600 dark:hover:text-gold-400 transition-all"
+        title="Change Language"
+      >
+        {otherLang.toUpperCase()}
+      </a>
+
+      <!-- Theme Toggle -->
+      <ThemeToggle />
+
+      <!-- CTA Button -->
+      <a
+        href={lang === 'tr' ? '/iletisim' : '/en/contact'}
+        class="px-5 py-2.5 rounded text-xs font-semibold uppercase tracking-widest bg-navy-900 text-cream-100 dark:bg-gold-500 dark:text-navy-900 hover:bg-gold-600 dark:hover:bg-gold-400 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+      >
+        {t('nav.cta')}
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <div class="flex items-center gap-3 md:hidden">
+      <a
+        href={otherLangUrl}
+        class="px-2 py-1 text-xs font-semibold uppercase rounded border border-navy-900/20 dark:border-white/20"
+      >
+        {otherLang.toUpperCase()}
+      </a>
+      <ThemeToggle />
+      <button
+        id="mobile-menu-btn"
+        type="button"
+        aria-label="Open Menu"
+        class="p-2 text-navy-900 dark:text-cream-100 focus:outline-none"
+      >
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Dropdown Menu -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-navy-900/10 dark:border-white/10 bg-cream-100/95 dark:bg-navy-900/95 backdrop-blur-lg px-4 pt-4 pb-6 space-y-3">
+    {navLinks.map((link) => (
+      <a
+        href={link.href}
+        class="block py-2 text-base font-medium text-navy-800 dark:text-cream-200 hover:text-gold-600 dark:hover:text-gold-400"
+      >
+        {link.label}
+      </a>
+    ))}
+    <div class="pt-2">
+      <a
+        href={lang === 'tr' ? '/iletisim' : '/en/contact'}
+        class="block w-full text-center py-3 rounded text-xs font-semibold uppercase tracking-widest bg-navy-900 text-cream-100 dark:bg-gold-500 dark:text-navy-900"
+      >
+        {t('nav.cta')}
+      </a>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  mobileMenuBtn?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+  });
+</script>

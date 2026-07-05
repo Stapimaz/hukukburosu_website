@@ -1,0 +1,76 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => data.lang === 'en');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const formattedDate = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}).format(post.data.pubDate);
+---
+
+<Layout title={post.data.title} description={post.data.description}>
+  <article class="py-24 bg-cream-100 dark:bg-navy-900 transition-colors min-h-[80vh]">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <!-- Back Link -->
+      <a href="/en/articles" class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold-600 dark:text-gold-400 hover:text-navy-900 dark:hover:text-white transition-colors">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+        <span>Back to All Articles</span>
+      </a>
+
+      <!-- Header Box -->
+      <div class="bg-glass-card p-8 sm:p-12 rounded-2xl border border-navy-900/10 dark:border-white/10 shadow-lg space-y-6">
+        <div class="flex flex-wrap items-center justify-between gap-4 text-xs font-semibold uppercase tracking-wider text-gold-600 dark:text-gold-400">
+          <span>{formattedDate}</span>
+          <span class="px-3 py-1 rounded-full bg-navy-900 text-cream-100 dark:bg-gold-500 dark:text-navy-950 font-bold">
+            {post.data.author}
+          </span>
+        </div>
+
+        <h1 class="text-3xl sm:text-5xl font-serif font-bold text-navy-900 dark:text-cream-100 leading-tight">
+          {post.data.title}
+        </h1>
+
+        <div class="flex flex-wrap gap-2 pt-2">
+          {post.data.tags.map((tag) => (
+            <span class="text-xs px-3 py-1 rounded-full bg-cream-200 dark:bg-navy-800 text-navy-700 dark:text-cream-300 font-medium">
+              #{tag}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <!-- Markdown Body -->
+      <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-bold prose-a:text-gold-600 dark:prose-a:text-gold-400 prose-blockquote:border-gold-500 prose-blockquote:bg-navy-900/5 dark:prose-blockquote:bg-white/5 prose-blockquote:p-6 prose-blockquote:rounded-r-lg bg-white/70 dark:bg-navy-950/70 p-8 sm:p-12 rounded-2xl border border-navy-900/5 dark:border-white/5 shadow-md">
+        <Content />
+      </div>
+
+      <!-- Bottom Share & Contact CTA -->
+      <div class="p-8 rounded-xl bg-navy-950 text-white border border-gold-500/30 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
+        <div class="space-y-2 text-center sm:text-left">
+          <h3 class="font-serif font-bold text-xl text-gold-400">Need legal representation in Turkey?</h3>
+          <p class="text-xs text-cream-300">Our legal team is ready to provide strategic support at every stage of your commercial venture.</p>
+        </div>
+        <a
+          href="/en/contact"
+          class="px-6 py-3 rounded text-xs font-bold uppercase tracking-widest bg-gold-500 text-navy-950 hover:bg-gold-400 transition-all flex-shrink-0"
+        >
+          Contact Us
+        </a>
+      </div>
+
+    </div>
+  </article>
+</Layout>

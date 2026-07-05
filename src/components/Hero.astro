@@ -1,0 +1,70 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-navy-950">
+  <!-- Background Image with Gradient Overlays -->
+  <div class="absolute inset-0 z-0">
+    <img
+      src="/images/hero-bg.png"
+      alt="NS Hukuk Danışmanlık Ofisi"
+      class="w-full h-full object-cover object-center opacity-30 scale-105 animate-pulse duration-10000"
+    />
+    <div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-950/80 to-navy-950/60"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gold-500/10 via-transparent to-transparent"></div>
+  </div>
+
+  <!-- Content Container -->
+  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center space-y-10 animate-fade-in">
+    
+    <!-- Top Accent Tag -->
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/10 border border-gold-500/30 backdrop-blur-sm text-gold-400 text-xs tracking-[0.25em] uppercase font-semibold">
+      <span class="w-1.5 h-1.5 rounded-full bg-gold-400 animate-ping"></span>
+      <span>{lang === 'tr' ? 'Uluslararası & Yerel Hukuk Danışmanlığı' : 'International & Domestic Legal Consultancy'}</span>
+    </div>
+
+    <!-- Main Title -->
+    <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-bold text-white tracking-tight leading-none drop-shadow-lg">
+      <span class="block text-gradient-gold pb-2">{t('hero.title')}</span>
+    </h1>
+
+    <!-- Latin Quote Box -->
+    <div class="max-w-3xl mx-auto p-8 rounded-lg bg-navy-900/40 border border-gold-500/30 backdrop-blur-md shadow-2xl relative">
+      <!-- Decorative Quote Marks -->
+      <span class="absolute -top-6 left-8 text-6xl font-serif text-gold-500/40 select-none">&ldquo;</span>
+      
+      <blockquote class="space-y-4">
+        <p class="font-serif italic text-xl sm:text-2xl md:text-3xl text-gold-400 font-normal leading-relaxed tracking-wide">
+          "{t('hero.quote')}"
+        </p>
+        <div class="w-16 h-0.5 bg-gold-500/50 mx-auto"></div>
+        <p class="text-sm sm:text-base text-cream-200 font-light tracking-wide max-w-2xl mx-auto leading-relaxed">
+          {t('hero.subtitle')}
+        </p>
+      </blockquote>
+    </div>
+
+    <!-- Call to Action Buttons -->
+    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a
+        href={lang === 'tr' ? '/iletisim' : '/en/contact'}
+        class="w-full sm:w-auto px-8 py-4 rounded text-xs font-bold uppercase tracking-[0.2em] bg-gold-500 text-navy-950 hover:bg-gold-400 transition-all shadow-xl hover:shadow-gold-500/20 transform hover:-translate-y-0.5 duration-200"
+      >
+        {t('hero.btn.contact')}
+      </a>
+      <a
+        href={lang === 'tr' ? '/#uzmanliklar' : '/en/#practice'}
+        class="w-full sm:w-auto px-8 py-4 rounded text-xs font-bold uppercase tracking-[0.2em] bg-navy-900/80 border border-white/20 text-cream-100 hover:bg-navy-800 hover:border-gold-500 transition-all backdrop-blur-sm transform hover:-translate-y-0.5 duration-200"
+      >
+        {t('hero.btn.practice')}
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Bottom Decorative Border -->
+  <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-cream-100 dark:from-navy-900 to-transparent z-10 pointer-events-none"></div>
+</section>

@@ -1,0 +1,73 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const formattedDate = new Intl.DateTimeFormat(lang === 'tr' ? 'tr-TR' : 'en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}).format(post.data.pubDate);
+
+const articleUrl = lang === 'tr' 
+  ? `/makaleler/${post.slug}` 
+  : `/en/articles/${post.slug}`;
+---
+
+<article class="bg-glass-card rounded-lg p-6 sm:p-8 flex flex-col justify-between border border-navy-900/5 dark:border-white/5 hover:border-gold-500/60 transition-all duration-300 group shadow-md hover:shadow-xl relative overflow-hidden">
+  
+  <!-- Accent Border Top -->
+  <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-gold-500 via-gold-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+
+  <div class="space-y-4">
+    <!-- Meta Info -->
+    <div class="flex items-center justify-between text-[11px] font-semibold tracking-wider uppercase text-gold-600 dark:text-gold-400">
+      <span>{formattedDate}</span>
+      <span class="px-2 py-0.5 rounded bg-navy-900/5 dark:bg-white/5 text-navy-800 dark:text-cream-300">
+        {post.data.author}
+      </span>
+    </div>
+
+    <!-- Title -->
+    <h3 class="text-xl sm:text-2xl font-serif font-bold text-navy-900 dark:text-cream-100 group-hover:text-gold-600 dark:group-hover:text-gold-400 transition-colors leading-snug">
+      <a href={articleUrl} class="before:absolute before:inset-0">
+        {post.data.title}
+      </a>
+    </h3>
+
+    <!-- Description -->
+    <p class="text-xs sm:text-sm text-navy-700 dark:text-cream-300/80 leading-relaxed font-light line-clamp-3">
+      {post.data.description}
+    </p>
+
+    <!-- Tags -->
+    <div class="flex flex-wrap gap-1.5 pt-2">
+      {post.data.tags.map((tag) => (
+        <span class="text-[10px] px-2 py-0.5 rounded-full bg-cream-200 dark:bg-navy-800 text-navy-700 dark:text-cream-300 font-medium">
+          #{tag}
+        </span>
+      ))}
+    </div>
+  </div>
+
+  <!-- Read More Link -->
+  <div class="pt-6 mt-6 border-t border-navy-900/10 dark:border-white/10 flex items-center justify-between">
+    <span class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-navy-900 dark:text-gold-400 group-hover:text-gold-600 dark:group-hover:text-gold-300 transition-colors">
+      <span>{t('blog.btn.read')}</span>
+      <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+      </svg>
+    </span>
+    <span class="text-[11px] text-navy-500 dark:text-cream-400/60 italic">
+      {lang === 'tr' ? '4 dk okuma' : '4 min read'}
+    </span>
+  </div>
+
+</article>

@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TeamSection from '../components/TeamSection.astro';
+---
+
+<Layout title="Hakkımızda & Ekip" description="NS Hukuk Danışmanlık'ın kuruluş ilkeleri, vizyonu ve kurucu avukat kadromuz.">
+  
+  <!-- Page Header -->
+  <section class="py-24 bg-navy-950 text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gold-500/10 via-transparent to-transparent"></div>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 relative z-10 animate-fade-in">
+      <span class="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">Kurumsal Kültür & Değerler</span>
+      <h1 class="text-4xl sm:text-6xl font-serif font-bold tracking-tight">
+        Hakkımızda & <span class="text-gradient-gold">İlkelerimiz</span>
+      </h1>
+      <div class="w-20 h-0.5 bg-gold-500 mx-auto"></div>
+      <p class="text-base sm:text-lg text-cream-200 font-light leading-relaxed">
+        Hukukun üstünlüğünü ve evrensel adalet ilkelerini rehber edinerek, müvekkillerimize uluslararası standartlarda hukuki çözüm ortaklığı sunuyoruz.
+      </p>
+    </div>
+  </section>
+
+  <!-- Principles Section -->
+  <section class="py-24 bg-cream-100 dark:bg-navy-900 transition-colors">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-glass-card p-8 rounded-lg space-y-4 border border-navy-900/5 dark:border-white/5">
+          <div class="w-10 h-10 rounded bg-navy-900 text-gold-400 flex items-center justify-center font-serif font-bold text-xl">01</div>
+          <h3 class="text-xl font-serif font-bold text-navy-900 dark:text-cream-100">Dürüstlük ve Şeffaflık</h3>
+          <p class="text-xs sm:text-sm text-navy-700 dark:text-cream-300/80 leading-relaxed font-light">
+            Müvekkillerimizle kurduğumuz ilişkinin temeli tam güven ve şeffaf bilgilendirmeye dayanır. Süreçlerin her aşamasında net hukuki öngörüler sunarız.
+          </p>
+        </div>
+
+        <div class="bg-glass-card p-8 rounded-lg space-y-4 border border-navy-900/5 dark:border-white/5">
+          <div class="w-10 h-10 rounded bg-navy-900 text-gold-400 flex items-center justify-center font-serif font-bold text-xl">02</div>
+          <h3 class="text-xl font-serif font-bold text-navy-900 dark:text-cream-100">Önlayici Hukuk</h3>
+          <p class="text-xs sm:text-sm text-navy-700 dark:text-cream-300/80 leading-relaxed font-light">
+            Uyuşmazlıklar ortaya çıktıktan sonra çözmek yerine, potansiyel hukuki riskleri önceden tespit ederek müvekkillerimizin koruma kalkanını oluştururuz.
+          </p>
+        </div>
+
+        <div class="bg-glass-card p-8 rounded-lg space-y-4 border border-navy-900/5 dark:border-white/5">
+          <div class="w-10 h-10 rounded bg-navy-900 text-gold-400 flex items-center justify-center font-serif font-bold text-xl">03</div>
+          <h3 class="text-xl font-serif font-bold text-navy-900 dark:text-cream-100">Küresel Vizyon</h3>
+          <p class="text-xs sm:text-sm text-navy-700 dark:text-cream-300/80 leading-relaxed font-light">
+            Hem Türk hukuku hem de uluslararası regülasyonlara (GDPR, uluslararası ticaret kuralları, tahkim) hakim yapımızla sınır aşan çözümler sunarız.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quote Box -->
+      <div class="p-10 rounded-xl bg-navy-950 text-cream-100 border border-gold-500/30 text-center space-y-6 shadow-2xl">
+        <h3 class="font-serif italic text-2xl sm:text-3xl text-gold-400">
+          "Honeste vivere, alterum non laedere, suum cuique tribuere."
+        </h3>
+        <p class="text-sm sm:text-base text-cream-200 font-light max-w-2xl mx-auto">
+          Roma hukukunun bu kadim özdeyişi — <strong class="text-white">"Dürüst yaşamak, başkasına zarar vermemek ve herkese hakkı olanı teslim etmek"</strong> — NS Hukuk Danışmanlık bünyesindeki tüm hukuki operasyonların temel pusulasıdır.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <TeamSection />
+
+</Layout>
