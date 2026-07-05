@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, url } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -9,7 +9,7 @@ const t = useTranslations(lang);
   <!-- Background Image with Gradient Overlays -->
   <div class="absolute inset-0 z-0">
     <img
-      src="/images/hero-bg.png"
+      src={url('/images/hero-bg.png')}
       alt="NS Hukuk Danışmanlık Ofisi"
       class="w-full h-full object-cover object-center opacity-30 scale-105 animate-pulse duration-10000"
     />
@@ -50,13 +50,13 @@ const t = useTranslations(lang);
     <!-- Call to Action Buttons -->
     <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
       <a
-        href={lang === 'tr' ? '/iletisim' : '/en/contact'}
+        href={url(lang === 'tr' ? '/iletisim' : '/en/contact')}
         class="w-full sm:w-auto px-8 py-4 rounded text-xs font-bold uppercase tracking-[0.2em] bg-gold-500 text-navy-950 hover:bg-gold-400 transition-all shadow-xl hover:shadow-gold-500/20 transform hover:-translate-y-0.5 duration-200"
       >
         {t('hero.btn.contact')}
       </a>
       <a
-        href={lang === 'tr' ? '/#uzmanliklar' : '/en/#practice'}
+        href={url(lang === 'tr' ? '/#uzmanliklar' : '/en/#practice')}
         class="w-full sm:w-auto px-8 py-4 rounded text-xs font-bold uppercase tracking-[0.2em] bg-navy-900/80 border border-white/20 text-cream-100 hover:bg-navy-800 hover:border-gold-500 transition-all backdrop-blur-sm transform hover:-translate-y-0.5 duration-200"
       >
         {t('hero.btn.practice')}

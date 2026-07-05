@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, url } from '../i18n/utils';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -16,9 +16,9 @@ const formattedDate = new Intl.DateTimeFormat(lang === 'tr' ? 'tr-TR' : 'en-US',
   day: 'numeric',
 }).format(post.data.pubDate);
 
-const articleUrl = lang === 'tr' 
+const articleUrl = url(lang === 'tr' 
   ? `/makaleler/${post.slug}` 
-  : `/en/articles/${post.slug}`;
+  : `/en/articles/${post.slug}`);
 ---
 
 <article class="bg-glass-card rounded-lg p-6 sm:p-8 flex flex-col justify-between border border-navy-900/5 dark:border-white/5 hover:border-gold-500/60 transition-all duration-300 group shadow-md hover:shadow-xl relative overflow-hidden">

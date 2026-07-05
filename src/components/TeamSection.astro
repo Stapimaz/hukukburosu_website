@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, url } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -7,23 +7,23 @@ const t = useTranslations(lang);
 const team = [
   {
     slug: 'samet',
-    name: 'Av. Samet S.',
+    name: lang === 'tr' ? 'Av. Samet Soyisim' : 'Atty. Samet Soyisim',
     role: lang === 'tr' ? 'Kurucu Ortak Avukat' : 'Founding Partner Attorney',
     practice: lang === 'tr' ? 'Ticaret, Sözleşmeler ve Uluslararası Tahkim' : 'Commercial, Contracts & International Arbitration',
-    image: '/images/samet.png',
+    image: url('/images/samet.png'),
     bio: lang === 'tr'
-      ? 'Ticaret hukuku, uluslararası sözleşmeler ve sınır aşan şirket birleşmelerinde geniş tecrübeye sahip olan Av. Samet S., büromuzun stratejik danışmanlık ve tahkim departmanını yönetmektedir.'
-      : 'Specializing in commercial law, cross-border transactions, and M&A, Atty. Samet S. leads our firm’s strategic consultancy and international arbitration practice.',
+      ? 'Ticaret hukuku, uluslararası sözleşmeler ve sınır aşan şirket birleşmelerinde geniş tecrübeye sahip olan Av. Samet Soyisim, büromuzun stratejik danışmanlık ve tahkim departmanını yönetmektedir.'
+      : 'Specializing in commercial law, cross-border transactions, and M&A, Atty. Samet Soyisim leads our firm’s strategic consultancy and international arbitration practice.',
   },
   {
-    slug: 'neslihan',
-    name: 'Av. Neslihan S.',
+    slug: 'oyku',
+    name: lang === 'tr' ? 'Av. Öykü Naz Karaman' : 'Atty. Öykü Naz Karaman',
     role: lang === 'tr' ? 'Kurucu Ortak Avukat' : 'Founding Partner Attorney',
     practice: lang === 'tr' ? 'KVKK, Gayrimenkul ve Şirketler Danışmanlığı' : 'Data Protection (KVKK), Real Estate & Corporate',
-    image: '/images/neslihan.png',
+    image: url('/images/oyku.png'),
     bio: lang === 'tr'
-      ? 'Kişisel verilerin korunması, gayrimenkul hukuku ve kurumsal regülasyon uyum projelerinde uzmanlaşmış olan Av. Neslihan S., yerli ve yabancı şirketlerin baş hukuk müşavirliği görevlerini yürütmektedir.'
-      : 'Specializing in data privacy, real estate law, and corporate regulatory compliance, Atty. Neslihan S. acts as lead legal counsel for domestic and multinational corporations.',
+      ? 'Kişisel verilerin korunması, gayrimenkul hukuku ve kurumsal regülasyon uyum projelerinde uzmanlaşmış olan Av. Öykü Naz Karaman, yerli ve yabancı şirketlerin baş hukuk müşavirliği görevlerini yürütmektedir.'
+      : 'Specializing in data privacy, real estate law, and corporate regulatory compliance, Atty. Öykü Naz Karaman acts as lead legal counsel for domestic and multinational corporations.',
   },
 ];
 ---
@@ -84,7 +84,7 @@ const team = [
 
             <div class="pt-4 border-t border-navy-900/10 dark:border-white/10 flex items-center justify-between">
               <a
-                href={lang === 'tr' ? `/ekip/${member.slug}` : `/en/team/${member.slug}`}
+                href={url(lang === 'tr' ? `/ekip/${member.slug}` : `/en/team/${member.slug}`)}
                 class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-navy-900 dark:text-gold-400 group-hover:text-gold-600 dark:group-hover:text-gold-300 transition-colors"
               >
                 <span>{t('team.btn.profile')}</span>

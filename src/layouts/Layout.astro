@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, url } from '../i18n/utils';
 
 interface Props {
   title: string;
@@ -14,8 +14,8 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 const metaDesc = description || (lang === 'tr' 
-  ? 'NS Hukuk Danışmanlık - Av. Samet S. & Av. Neslihan S. tarafından kurulan, stratejik, güvenilir ve modern hukuki çözüm ortaklığı.'
-  : 'NS Law & Consultancy - Strategic, reliable, and modern legal solutions founded by Atty. Samet S. & Atty. Neslihan S.');
+  ? 'NS Hukuk Danışmanlık - Av. Samet Soyisim & Av. Öykü Naz Karaman tarafından kurulan, stratejik, güvenilir ve modern hukuki çözüm ortaklığı.'
+  : 'NS Law & Consultancy - Strategic, reliable, and modern legal solutions founded by Atty. Samet Soyisim & Atty. Öykü Naz Karaman.');
 ---
 
 <!doctype html>
@@ -23,7 +23,7 @@ const metaDesc = description || (lang === 'tr'
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
     <meta name="generator" content={Astro.generator} />
     
     <title>{title} | {t('hero.title')}</title>
@@ -34,7 +34,7 @@ const metaDesc = description || (lang === 'tr'
     <meta property="og:description" content={metaDesc} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={Astro.url} />
-    <meta property="og:image" content="/images/hero-bg.png" />
+    <meta property="og:image" content={url('/images/hero-bg.png')} />
     
     <!-- Theme Persistence Script (prevents flash of wrong theme) -->
     <script is:inline>

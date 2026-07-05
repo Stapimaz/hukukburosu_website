@@ -1,14 +1,15 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
+import { url } from '../../../i18n/utils';
 
 export function getStaticPaths() {
   return [
     {
       params: { slug: 'samet' },
       props: {
-        name: 'Atty. Samet S.',
+        name: 'Atty. Samet Soyisim',
         role: 'Founding Partner Attorney',
-        image: '/images/samet.png',
+        image: url('/images/samet.png'),
         bar: 'Istanbul Bar Association',
         email: 'samet@nshukuk.com',
         phone: '+90 (212) 555 01 23',
@@ -24,20 +25,20 @@ export function getStaticPaths() {
           'King\'s College London (LL.M. in International Business Law)',
         ],
         bio: [
-          'Atty. Samet S. is a founding partner attorney specializing in international trade law, cross-border commercial transactions, and corporate restructuring.',
+          'Atty. Samet Soyisim is a founding partner attorney specializing in international trade law, cross-border commercial transactions, and corporate restructuring.',
           'Throughout his career, he has led M&A and corporate restructuring projects for numerous domestic and multinational enterprises; representing clients before ICC and ISTAC arbitration tribunals.',
           'He acts as executive legal advisor to corporate boards on contract law, strategic investment advisory, and risk mitigation.',
         ],
       },
     },
     {
-      params: { slug: 'neslihan' },
+      params: { slug: 'oyku' },
       props: {
-        name: 'Atty. Neslihan S.',
+        name: 'Atty. Öykü Naz Karaman',
         role: 'Founding Partner Attorney',
-        image: '/images/neslihan.png',
+        image: url('/images/oyku.png'),
         bar: 'Istanbul Bar Association',
-        email: 'neslihan@nshukuk.com',
+        email: 'oyku@nshukuk.com',
         phone: '+90 (212) 555 01 23',
         languages: 'Turkish, English, French',
         practices: [
@@ -51,7 +52,34 @@ export function getStaticPaths() {
           'Sorbonne University (LL.M. in European & Corporate Law)',
         ],
         bio: [
-          'Atty. Neslihan S. is a founding partner attorney specializing in data privacy law, real estate development projects, and regulatory compliance.',
+          'Atty. Öykü Naz Karaman is a founding partner attorney specializing in data privacy law, real estate development projects, and regulatory compliance.',
+          'She oversees comprehensive KVKK and GDPR compliance programs for corporations while formulating preventive legal strategies in intellectual property and unfair competition disputes.',
+          'In real estate law, she handles complex construction contracts and cross-border commercial lease negotiations.',
+        ],
+      },
+    },
+    {
+      params: { slug: 'neslihan' },
+      props: {
+        name: 'Atty. Öykü Naz Karaman',
+        role: 'Founding Partner Attorney',
+        image: url('/images/oyku.png'),
+        bar: 'Istanbul Bar Association',
+        email: 'oyku@nshukuk.com',
+        phone: '+90 (212) 555 01 23',
+        languages: 'Turkish, English, French',
+        practices: [
+          'Data Protection (KVKK & GDPR)',
+          'Real Estate & Construction Law',
+          'Intellectual Property Law',
+          'Corporate Governance & Compliance',
+        ],
+        education: [
+          'Galatasaray University Faculty of Law (LL.B.)',
+          'Sorbonne University (LL.M. in European & Corporate Law)',
+        ],
+        bio: [
+          'Atty. Öykü Naz Karaman is a founding partner attorney specializing in data privacy law, real estate development projects, and regulatory compliance.',
           'She oversees comprehensive KVKK and GDPR compliance programs for corporations while formulating preventive legal strategies in intellectual property and unfair competition disputes.',
           'In real estate law, she handles complex construction contracts and cross-border commercial lease negotiations.',
         ],
@@ -68,7 +96,7 @@ const { name, role, image, bar, email, phone, languages, practices, education, b
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <!-- Back Link -->
-      <a href="/en/about" class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold-600 dark:text-gold-400 hover:text-navy-900 dark:hover:text-white transition-colors mb-12">
+      <a href={url('/en/about')} class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold-600 dark:text-gold-400 hover:text-navy-900 dark:hover:text-white transition-colors mb-12">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
         <span>Back to Our Team</span>
       </a>
@@ -154,7 +182,7 @@ const { name, role, image, bar, email, phone, languages, practices, education, b
           <!-- Direct CTA -->
           <div class="pt-6 border-t border-navy-900/10 dark:border-white/10">
             <a
-              href="/en/contact"
+              href={url('/en/contact')}
               class="inline-block px-8 py-4 rounded text-xs font-bold uppercase tracking-[0.2em] bg-navy-900 text-cream-100 dark:bg-gold-500 dark:text-navy-950 hover:bg-gold-600 dark:hover:bg-gold-400 transition-all shadow-lg"
             >
               Request Consultation

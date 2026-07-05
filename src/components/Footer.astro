@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, url } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -34,27 +34,27 @@ const currentYear = new Date().getFullYear();
         </h4>
         <ul class="space-y-2 text-xs">
           <li>
-            <a href={lang === 'tr' ? '/' : '/en/'} class="hover:text-gold-400 transition-colors">
+            <a href={url(lang === 'tr' ? '/' : '/en/')} class="hover:text-gold-400 transition-colors">
               {t('nav.home')}
             </a>
           </li>
           <li>
-            <a href={lang === 'tr' ? '/hakkimizda' : '/en/about'} class="hover:text-gold-400 transition-colors">
+            <a href={url(lang === 'tr' ? '/hakkimizda' : '/en/about')} class="hover:text-gold-400 transition-colors">
               {t('nav.about')}
             </a>
           </li>
           <li>
-            <a href={lang === 'tr' ? '/#uzmanliklar' : '/en/#practice'} class="hover:text-gold-400 transition-colors">
+            <a href={url(lang === 'tr' ? '/#uzmanliklar' : '/en/#practice')} class="hover:text-gold-400 transition-colors">
               {t('nav.practice')}
             </a>
           </li>
           <li>
-            <a href={lang === 'tr' ? '/makaleler' : '/en/articles'} class="hover:text-gold-400 transition-colors">
+            <a href={url(lang === 'tr' ? '/makaleler' : '/en/articles')} class="hover:text-gold-400 transition-colors">
               {t('nav.blog')}
             </a>
           </li>
           <li>
-            <a href={lang === 'tr' ? '/iletisim' : '/en/contact'} class="hover:text-gold-400 transition-colors">
+            <a href={url(lang === 'tr' ? '/iletisim' : '/en/contact')} class="hover:text-gold-400 transition-colors">
               {t('nav.contact')}
             </a>
           </li>

@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { url } from '../../i18n/utils';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => data.lang === 'tr');
@@ -25,7 +26,7 @@ const formattedDate = new Intl.DateTimeFormat('tr-TR', {
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
       
       <!-- Back Link -->
-      <a href="/makaleler" class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold-600 dark:text-gold-400 hover:text-navy-900 dark:hover:text-white transition-colors">
+      <a href={url('/makaleler')} class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold-600 dark:text-gold-400 hover:text-navy-900 dark:hover:text-white transition-colors">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
         <span>Tüm Makalelere Dön</span>
       </a>
@@ -64,7 +65,7 @@ const formattedDate = new Intl.DateTimeFormat('tr-TR', {
           <p class="text-xs text-cream-300">Ekibimiz sürecinizin her aşamasında hukuki destek sağlamaya hazırdır.</p>
         </div>
         <a
-          href="/iletisim"
+          href={url('/iletisim')}
           class="px-6 py-3 rounded text-xs font-bold uppercase tracking-widest bg-gold-500 text-navy-950 hover:bg-gold-400 transition-all flex-shrink-0"
         >
           İletişime Geç

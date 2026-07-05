@@ -2,7 +2,7 @@
 title: "Şirketlerde KVKK Uyumu ve Kurul Denetimlerinde Dikkat Edilmesi Gerekenler"
 description: "Kişisel Verileri Koruma Kanunu (KVKK) kapsamında şirketlerin yükümlülükleri, VERBİS kaydı ve idari para cezalarından korunma yolları."
 pubDate: 2026-06-20
-author: "Av. Neslihan S."
+author: "Av. Öykü Naz Karaman"
 tags: ["KVKK", "Kişisel Veriler", "Uyum & Denetim"]
 lang: "tr"
 ---

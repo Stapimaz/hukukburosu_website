@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslations, getRouteFromUrl } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, getRouteFromUrl, url } from '../i18n/utils';
 import ThemeToggle from './ThemeToggle.astro';
 
 const lang = getLangFromUrl(Astro.url);
@@ -9,18 +9,18 @@ const otherLang = lang === 'tr' ? 'en' : 'tr';
 const otherLangUrl = getRouteFromUrl(Astro.url, otherLang);
 
 const navLinks = [
-  { href: lang === 'tr' ? '/' : '/en/', label: t('nav.home') },
-  { href: lang === 'tr' ? '/hakkimizda' : '/en/about', label: t('nav.about') },
-  { href: lang === 'tr' ? '/#uzmanliklar' : '/en/#practice', label: t('nav.practice') },
-  { href: lang === 'tr' ? '/makaleler' : '/en/articles', label: t('nav.blog') },
-  { href: lang === 'tr' ? '/iletisim' : '/en/contact', label: t('nav.contact') },
+  { href: url(lang === 'tr' ? '/' : '/en/'), label: t('nav.home') },
+  { href: url(lang === 'tr' ? '/hakkimizda' : '/en/about'), label: t('nav.about') },
+  { href: url(lang === 'tr' ? '/#uzmanliklar' : '/en/#practice'), label: t('nav.practice') },
+  { href: url(lang === 'tr' ? '/makaleler' : '/en/articles'), label: t('nav.blog') },
+  { href: url(lang === 'tr' ? '/iletisim' : '/en/contact'), label: t('nav.contact') },
 ];
 ---
 
 <header class="sticky top-0 z-50 bg-glass transition-all duration-300">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
     <!-- Logo -->
-    <a href={lang === 'tr' ? '/' : '/en/'} class="flex items-center gap-2 group">
+    <a href={url(lang === 'tr' ? '/' : '/en/')} class="flex items-center gap-2 group">
       <div class="w-10 h-10 rounded-sm bg-navy-900 dark:bg-gold-500/20 border border-gold-500/40 flex items-center justify-center transition-transform group-hover:scale-105">
         <span class="font-serif font-bold text-xl text-gradient-gold">NS</span>
       </div>
@@ -62,7 +62,7 @@ const navLinks = [
 
       <!-- CTA Button -->
       <a
-        href={lang === 'tr' ? '/iletisim' : '/en/contact'}
+        href={url(lang === 'tr' ? '/iletisim' : '/en/contact')}
         class="px-5 py-2.5 rounded text-xs font-semibold uppercase tracking-widest bg-navy-900 text-cream-100 dark:bg-gold-500 dark:text-navy-900 hover:bg-gold-600 dark:hover:bg-gold-400 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
       >
         {t('nav.cta')}
@@ -103,7 +103,7 @@ const navLinks = [
     ))}
     <div class="pt-2">
       <a
-        href={lang === 'tr' ? '/iletisim' : '/en/contact'}
+        href={url(lang === 'tr' ? '/iletisim' : '/en/contact')}
         class="block w-full text-center py-3 rounded text-xs font-semibold uppercase tracking-widest bg-navy-900 text-cream-100 dark:bg-gold-500 dark:text-navy-900"
       >
         {t('nav.cta')}

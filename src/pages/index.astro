@@ -5,7 +5,7 @@ import PracticeAreas from '../components/PracticeAreas.astro';
 import TeamSection from '../components/TeamSection.astro';
 import BlogCard from '../components/BlogCard.astro';
 import { getCollection } from 'astro:content';
-import { useTranslations } from '../i18n/utils';
+import { useTranslations, url } from '../i18n/utils';
 
 const t = useTranslations('tr');
 
@@ -16,7 +16,7 @@ const latestPosts = allPosts
   .slice(0, 3);
 ---
 
-<Layout title="Ana Sayfa" description="NS Hukuk Danışmanlık - Av. Samet S. & Av. Neslihan S. tarafından kurulan, evrensel hukuk ilkelerine bağlı, stratejik ve güvenilir hukuki danışmanlık.">
+<Layout title="Ana Sayfa" description="NS Hukuk Danışmanlık - Av. Samet Soyisim & Av. Öykü Naz Karaman tarafından kurulan, evrensel hukuk ilkelerine bağlı, stratejik ve güvenilir hukuki danışmanlık.">
   
   <!-- Hero Section -->
   <Hero />
@@ -41,7 +41,7 @@ const latestPosts = allPosts
           </h2>
         </div>
         <a
-          href="/makaleler"
+          href={url('/makaleler')}
           class="inline-flex items-center gap-2 px-6 py-3 rounded text-xs font-bold uppercase tracking-widest bg-navy-900 text-cream-100 dark:bg-gold-500 dark:text-navy-950 hover:bg-gold-600 dark:hover:bg-gold-400 transition-all shadow-md hover:shadow-lg self-start md:self-auto"
         >
           <span>{t('blog.btn.all')}</span>
@@ -70,7 +70,7 @@ const latestPosts = allPosts
       </p>
       <div class="pt-4">
         <a
-          href="/iletisim"
+          href={url('/iletisim')}
           class="inline-block px-10 py-5 rounded text-xs font-bold uppercase tracking-[0.25em] bg-gold-500 text-navy-950 hover:bg-gold-400 transition-all shadow-2xl hover:shadow-gold-500/20 transform hover:-translate-y-0.5"
         >
           {t('hero.btn.contact')}

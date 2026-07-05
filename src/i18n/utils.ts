@@ -1,7 +1,12 @@
 import { ui, defaultLang } from './ui';
 
 export function getLangFromUrl(url: URL) {
-  const [, lang] = url.pathname.split('/');
+  let pathname = url.pathname;
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  if (base && pathname.startsWith(base)) {
+    pathname = pathname.slice(base.length) || '/';
+  }
+  const [, lang] = pathname.split('/');
   if (lang in ui) return lang as keyof typeof ui;
   return defaultLang;
 }
@@ -12,8 +17,27 @@ export function useTranslations(lang: keyof typeof ui) {
   }
 }
 
+export function url(path: string): string {
+  if (!path || path.startsWith('http://') || path.startsWith('https://') || path.startsWith('mailto:') || path.startsWith('tel:') || path.startsWith('#')) {
+    return path;
+  }
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  // Prevent double base if path already starts with base
+  if (base && cleanPath.startsWith(`${base}/`)) {
+    return cleanPath;
+  }
+  return `${base}${cleanPath}`;
+}
+
 export function getRouteFromUrl(url: URL, targetLang: string): string {
-  const pathname = url.pathname;
+  let pathname = url.pathname;
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  
+  if (base && pathname.startsWith(base)) {
+    pathname = pathname.slice(base.length) || '/';
+  }
+  
   const parts = pathname.split('/').filter(Boolean);
   
   if (parts[0] === 'en' || parts[0] === 'tr') {
@@ -21,10 +45,13 @@ export function getRouteFromUrl(url: URL, targetLang: string): string {
   }
   
   const rest = parts.join('/');
+  let targetPath = '';
   
   if (targetLang === 'en') {
-    return rest ? `/en/${rest}` : '/en/';
+    targetPath = rest ? `/en/${rest}` : '/en/';
   } else {
-    return rest ? `/${rest}` : '/';
+    targetPath = rest ? `/${rest}` : '/';
   }
+  
+  return `${base}${targetPath}`;
 }

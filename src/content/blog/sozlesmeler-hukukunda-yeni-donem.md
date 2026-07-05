@@ -2,7 +2,7 @@
 title: "Sözleşmeler Hukukunda Dijitalleşme ve Akıllı Sözleşmeler"
 description: "Ticari hayatta dijitalleşmenin etkisiyle geleneksel sözleşmelerin yerini alan elektronik imza, blokzincir ve akıllı sözleşmelerin hukuki geçerliliği."
 pubDate: 2026-06-15
-author: "Av. Samet S."
+author: "Av. Samet Soyisim"
 tags: ["Sözleşmeler Hukuku", "Dijital Hukuk", "Ticaret"]
 lang: "tr"
 ---

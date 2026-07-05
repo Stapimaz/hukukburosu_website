@@ -1,14 +1,15 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { url } from '../../i18n/utils';
 
 export function getStaticPaths() {
   return [
     {
       params: { slug: 'samet' },
       props: {
-        name: 'Av. Samet S.',
+        name: 'Av. Samet Soyisim',
         role: 'Kurucu Ortak Avukat',
-        image: '/images/samet.png',
+        image: url('/images/samet.png'),
         bar: 'İstanbul Barosu',
         email: 'samet@nshukuk.com',
         phone: '+90 (212) 555 01 23',
@@ -24,20 +25,20 @@ export function getStaticPaths() {
           'King\'s College London (LL.M. in International Business Law)',
         ],
         bio: [
-          'Av. Samet S., uluslararası ticaret hukuku, sınır aşan sözleşmeler ve şirketler hukuku alanında uzmanlaşmış kurucu ortak avukattır.',
+          'Av. Samet Soyisim, uluslararası ticaret hukuku, sınır aşan sözleşmeler ve şirketler hukuku alanında uzmanlaşmış kurucu ortak avukattır.',
           'Kariyeri boyunca birçok yerli ve uluslararası şirketin birleşme, devralma ve yeniden yapılandırma süreçlerini yönetmiş; ICC ve ISTAC nezdindeki tahkim davalarında müvekkillerini başarıyla temsil etmiştir.',
           'Özellikle sözleşmeler hukuku, stratejik yatırım danışmanlığı ve kurumsal risk yönetimi konularında şirketlerin yönetim kurullarına hukuki danışmanlık vermektedir.',
         ],
       },
     },
     {
-      params: { slug: 'neslihan' },
+      params: { slug: 'oyku' },
       props: {
-        name: 'Av. Neslihan S.',
+        name: 'Av. Öykü Naz Karaman',
         role: 'Kurucu Ortak Avukat',
-        image: '/images/neslihan.png',
+        image: url('/images/oyku.png'),
         bar: 'İstanbul Barosu',
-        email: 'neslihan@nshukuk.com',
+        email: 'oyku@nshukuk.com',
         phone: '+90 (212) 555 01 23',
         languages: 'Türkçe, İngilizce, Fransızca',
         practices: [
@@ -51,7 +52,34 @@ export function getStaticPaths() {
           'Sorbonne Üniversitesi (LL.M. in European & Corporate Law)',
         ],
         bio: [
-          'Av. Neslihan S., kişisel verilerin korunması hukuku, gayrimenkul projeleri geliştirme ve kurumsal regülasyon uyumu alanlarında uzmanlaşmış kurucu ortak avukattır.',
+          'Av. Öykü Naz Karaman, kişisel verilerin korunması hukuku, gayrimenkul projeleri geliştirme ve kurumsal regülasyon uyumu alanlarında uzmanlaşmış kurucu ortak avukattır.',
+          'Şirketlerin baştan sona KVKK ve GDPR uyum projelerini yönetmekte; marka, patent ve telif haklarının korunması ile haksız rekabet uyuşmazlıklarında önleyici hukuki stratejiler geliştirmektedir.',
+          'Aynı zamanda gayrimenkul ve inşaat hukuku alanında karmaşık kat karşılığı inşaat sözleşmeleri ile uluslararası kira sözleşmelerinin müzakerelerini yürüterek üst düzey koruma sağlar.',
+        ],
+      },
+    },
+    {
+      params: { slug: 'neslihan' },
+      props: {
+        name: 'Av. Öykü Naz Karaman',
+        role: 'Kurucu Ortak Avukat',
+        image: url('/images/oyku.png'),
+        bar: 'İstanbul Barosu',
+        email: 'oyku@nshukuk.com',
+        phone: '+90 (212) 555 01 23',
+        languages: 'Türkçe, İngilizce, Fransızca',
+        practices: [
+          'Kişisel Verilerin Korunması (KVKK & GDPR)',
+          'Gayrimenkul ve İnşaat Hukuku',
+          'Fikri ve Sınai Mülkiyet Hukuku',
+          'Kurumsal Yönetişim & Uyum',
+        ],
+        education: [
+          'Galatasaray Üniversitesi Hukuk Fakültesi (Lisans)',
+          'Sorbonne Üniversitesi (LL.M. in European & Corporate Law)',
+        ],
+        bio: [
+          'Av. Öykü Naz Karaman, kişisel verilerin korunması hukuku, gayrimenkul projeleri geliştirme ve kurumsal regülasyon uyumu alanlarında uzmanlaşmış kurucu ortak avukattır.',
           'Şirketlerin baştan sona KVKK ve GDPR uyum projelerini yönetmekte; marka, patent ve telif haklarının korunması ile haksız rekabet uyuşmazlıklarında önleyici hukuki stratejiler geliştirmektedir.',
           'Aynı zamanda gayrimenkul ve inşaat hukuku alanında karmaşık kat karşılığı inşaat sözleşmeleri ile uluslararası kira sözleşmelerinin müzakerelerini yürüterek üst düzey koruma sağlar.',
         ],
@@ -68,7 +96,7 @@ const { name, role, image, bar, email, phone, languages, practices, education, b
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <!-- Back Link -->
-      <a href="/hakkimizda" class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold-600 dark:text-gold-400 hover:text-navy-900 dark:hover:text-white transition-colors mb-12">
+      <a href={url('/hakkimizda')} class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold-600 dark:text-gold-400 hover:text-navy-900 dark:hover:text-white transition-colors mb-12">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
         <span>Ekibimize Geri Dön</span>
       </a>
@@ -154,7 +182,7 @@ const { name, role, image, bar, email, phone, languages, practices, education, b
           <!-- Direct CTA -->
           <div class="pt-6 border-t border-navy-900/10 dark:border-white/10">
             <a
-              href="/iletisim"
+              href={url('/iletisim')}
               class="inline-block px-8 py-4 rounded text-xs font-bold uppercase tracking-[0.2em] bg-navy-900 text-cream-100 dark:bg-gold-500 dark:text-navy-950 hover:bg-gold-600 dark:hover:bg-gold-400 transition-all shadow-lg"
             >
               Randevu & Danışmanlık Talep Et
