@@ -5,56 +5,43 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<section class="relative py-20 sm:py-28 lg:py-32 flex items-center justify-center overflow-hidden bg-cream-100 transition-colors">
-  <!-- Architectural Grid Lines & Subtle Warm Glow (No Badges, No Boxes, No Murky Photos!) -->
-  <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
-    <!-- Faint Vertical Architectural Columns -->
-    <div class="max-w-7xl mx-auto h-full border-x border-navy-900/[0.04] flex justify-between">
-      <div class="w-px h-full bg-navy-900/[0.04] hidden sm:block"></div>
-      <div class="w-px h-full bg-navy-900/[0.04] hidden md:block"></div>
-      <div class="w-px h-full bg-navy-900/[0.04] hidden lg:block"></div>
-    </div>
-    <!-- Soft Luminous Gold Glow -->
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[400px] bg-gold-500/10 rounded-full blur-[140px]"></div>
+<section class="relative w-full py-12 sm:py-16 lg:py-20 bg-gradient-to-r from-navy-950 via-navy-900 to-navy-950 text-white overflow-hidden border-b-2 border-gold-500/40 shadow-2xl">
+  <!-- Subtle Architectural Pattern & Glow (Full Width, No Photos, No Badges) -->
+  <div class="absolute inset-0 z-0 pointer-events-none">
+    <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(#C5A880_1px,transparent_1px)] [background-size:32px_32px] opacity-[0.07]"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-gold-500/10 rounded-full blur-[120px]"></div>
   </div>
 
-  <!-- Main Content Container -->
-  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-12 animate-fade-in">
+  <!-- Full-Width Widescreen Content Container (Compact Height, Tight Spacing) -->
+  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 sm:space-y-8 animate-fade-in">
     
-    <!-- Top Editorial Tag (NO BADGE / NO PILL / NO BOX) -->
-    <div class="flex items-center justify-center gap-4">
-      <span class="w-8 sm:w-12 h-px bg-gold-500/60"></span>
-      <span class="text-xs sm:text-sm tracking-[0.25em] uppercase font-semibold text-gold-700">
-        {lang === 'tr' ? 'Ulusal ve Uluslararası Hukuk Danışmanlığı' : 'National & International Legal Consultancy'}
-      </span>
-      <span class="w-8 sm:w-12 h-px bg-gold-500/60"></span>
+    <!-- Top Tag (Editorial Letterpress, No Badge, No Box) -->
+    <div class="flex items-center justify-center gap-3 sm:gap-4 text-gold-400 text-xs sm:text-sm tracking-[0.25em] uppercase font-semibold">
+      <span class="w-8 sm:w-12 h-px bg-gold-500/50"></span>
+      <span>{lang === 'tr' ? 'Ulusal ve Uluslararası Hukuk Danışmanlığı' : 'National & International Legal Consultancy'}</span>
+      <span class="w-8 sm:w-12 h-px bg-gold-500/50"></span>
     </div>
 
-    <!-- Monumental High-Contrast Title (Deep Navy #060a18 & Gold) -->
-    <div class="space-y-4">
-      <h1 class="text-5xl sm:text-7xl md:text-8xl font-serif font-bold text-navy-950 tracking-tight leading-none">
-        NS HUKUK <span class="italic font-normal text-gradient-gold">DANIŞMANLIK</span>
+    <!-- Monumental High-Contrast Title (White & Gold on Deep Royal Navy) -->
+    <div>
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-white leading-none drop-shadow-md">
+        NS HUKUK <span class="font-normal italic text-gradient-gold">DANIŞMANLIK</span>
       </h1>
     </div>
 
-    <!-- Visionary Single-Line Latin Quote (NO BOX / NO CORNER BRACKETS / NO BADGE) -->
-    <div class="max-w-5xl mx-auto py-8 border-y border-navy-900/10 my-6 relative">
-      <!-- Delicate Center Diamond Ornament on Border -->
-      <span class="absolute -top-[3px] left-1/2 -translate-x-1/2 w-1.5 h-1.5 rotate-45 bg-gold-500"></span>
-      <span class="absolute -bottom-[3px] left-1/2 -translate-x-1/2 w-1.5 h-1.5 rotate-45 bg-gold-500"></span>
+    <!-- Elegant Widescreen Divider Line -->
+    <div class="w-full max-w-4xl mx-auto h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent"></div>
 
-      <p class="font-serif italic text-lg sm:text-2xl md:text-3xl lg:text-[32px] text-navy-900 font-normal tracking-wide sm:whitespace-nowrap text-center">
+    <!-- Visionary Single-Line Latin Quote & Subtitle (Tight, Compact Stack) -->
+    <div class="space-y-3 pt-1">
+      <p class="font-serif italic text-lg sm:text-2xl md:text-3xl text-gold-200 font-normal tracking-wide sm:whitespace-nowrap text-center">
         "{t('hero.quote')}"
+      </p>
+      <p class="text-xs sm:text-sm md:text-base text-cream-200/90 font-light tracking-wider max-w-3xl mx-auto leading-relaxed text-center">
+        {t('hero.subtitle')}
       </p>
     </div>
 
-    <!-- Subtitle -->
-    <p class="text-base sm:text-lg md:text-xl text-navy-700 font-light tracking-wide max-w-3xl mx-auto leading-relaxed text-center">
-      {t('hero.subtitle')}
-    </p>
-
   </div>
-
-  <!-- Bottom Transition Divider -->
-  <div class="absolute bottom-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-gold-500/30 to-transparent"></div>
 </section>
