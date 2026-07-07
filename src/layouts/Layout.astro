@@ -14,12 +14,12 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 const metaDesc = description || (lang === 'tr' 
-  ? 'NS Hukuk Danışmanlık - Av. Samet Soyisim & Av. Öykü Naz Karaman tarafından kurulan, stratejik, güvenilir ve modern hukuki çözüm ortaklığı.'
-  : 'NS Law & Consultancy - Strategic, reliable, and modern legal solutions founded by Atty. Samet Soyisim & Atty. Öykü Naz Karaman.');
+  ? 'NS Hukuk Danışmanlık - Av. Samet Ümit & Av. Öykü Naz Karaman tarafından kurulan, stratejik, güvenilir ve modern hukuki çözüm ortaklığı.'
+  : 'NS Law & Consultancy - Strategic, reliable, and modern legal solutions founded by Atty. Samet Ümit & Atty. Öykü Naz Karaman.');
 ---
 
 <!doctype html>
-<html lang={lang} class="scroll-smooth dark">
+<html lang={lang} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,21 +35,8 @@ const metaDesc = description || (lang === 'tr'
     <meta property="og:type" content="website" />
     <meta property="og:url" content={Astro.url} />
     <meta property="og:image" content={url('/images/hero-bg.png')} />
-    
-    <!-- Theme Persistence Script (prevents flash of wrong theme) -->
-    <script is:inline>
-      if (
-        localStorage.getItem('color-theme') === 'dark' ||
-        (!('color-theme' in localStorage) &&
-          window.matchMedia('(prefers-color-scheme: dark)').matches)
-      ) {
-        document.documentElement.classList.add('dark');
-      } else {
-        document.documentElement.classList.remove('dark');
-      }
-    </script>
   </head>
-  <body class="min-h-screen flex flex-col bg-cream-100 text-navy-900 dark:bg-navy-900 dark:text-cream-100 transition-colors duration-300">
+  <body class="min-h-screen flex flex-col bg-cream-100 text-navy-900 transition-colors duration-300">
     <Header />
     <main class="flex-1">
       <slot />

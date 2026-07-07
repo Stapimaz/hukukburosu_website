@@ -1,6 +1,5 @@
 ---
 import { getLangFromUrl, useTranslations, getRouteFromUrl, url } from '../i18n/utils';
-import ThemeToggle from './ThemeToggle.astro';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -57,9 +56,6 @@ const navLinks = [
         {otherLang.toUpperCase()}
       </a>
 
-      <!-- Theme Toggle -->
-      <ThemeToggle />
-
       <!-- CTA Button -->
       <a
         href={url(lang === 'tr' ? '/iletisim' : '/en/contact')}
@@ -77,7 +73,6 @@ const navLinks = [
       >
         {otherLang.toUpperCase()}
       </a>
-      <ThemeToggle />
       <button
         id="mobile-menu-btn"
         type="button"

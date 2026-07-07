@@ -2,7 +2,7 @@
 title: "Doing Business and Legal Framework for Foreign Investors in Turkey"
 description: "An overview of corporate law, foreign investment incentives, and dispute resolution mechanisms for international corporations entering the Turkish market."
 pubDate: 2026-06-25
-author: "Atty. Samet Soyisim"
+author: "Atty. Samet Ümit"
 tags: ["International Law", "Corporate", "Foreign Investment"]
 lang: "en"
 ---

@@ -7,27 +7,32 @@ export function getStaticPaths() {
     {
       params: { slug: 'samet' },
       props: {
-        name: 'Atty. Samet Soyisim',
-        role: 'Founding Partner Attorney',
+        name: 'Atty. Samet Ümit',
+        role: 'Founding Partner',
         image: url('/images/samet.png'),
-        bar: 'Istanbul Bar Association',
+        bar: 'Ankara Bar Association',
         email: 'samet@nshukuk.com',
-        phone: '+90 (212) 555 01 23',
-        languages: 'Turkish, English, German',
+        phone: '+90 544 646 73 49',
+        languages: 'Turkish, English',
         practices: [
-          'Commercial & Corporate Law',
-          'Contract Law & Negotiations',
-          'International Arbitration & Litigation',
+          'Company Incorporation & Corporate Structuring',
           'Mergers & Acquisitions (M&A)',
+          'High-Value Commercial Contracts & Negotiation',
+          'Corporate Risk Analysis & Debt Recovery',
+          'Labor and Social Security Law',
+          'Enforcement and Bankruptcy Law',
+          'Commercial & Administrative Law',
+          'Mediation & Dispute Resolution',
         ],
         education: [
-          'Istanbul University Faculty of Law (LL.B.)',
-          'King\'s College London (LL.M. in International Business Law)',
+          'Çankaya University Faculty of Law (Honors - Full Scholarship - 3 Years)',
+          'Anadolu University Department of International Relations',
         ],
         bio: [
-          'Atty. Samet Soyisim is a founding partner attorney specializing in international trade law, cross-border commercial transactions, and corporate restructuring.',
-          'Throughout his career, he has led M&A and corporate restructuring projects for numerous domestic and multinational enterprises; representing clients before ICC and ISTAC arbitration tribunals.',
-          'He acts as executive legal advisor to corporate boards on contract law, strategic investment advisory, and risk mitigation.',
+          'Graduating from Çankaya University Faculty of Law with full scholarship and honors in just 3 years, Atty. Samet Ümit reinforced his interdisciplinary vision with a degree in International Relations from Anadolu University.',
+          'Throughout his career, he has provided comprehensive corporate counseling to nationwide companies in construction, manufacturing, and commerce, with a particular focus on building inspection firms. He possesses deep expertise in company formation, legal infrastructure of M&A processes, high-value commercial contract drafting, and corporate risk analysis.',
+          'In addition to his extensive field and consultancy practice, he meticulously manages corporate debt recovery and complex dispute resolution in Labor and Social Security Law, Enforcement and Bankruptcy Law, Commercial Law, and Administrative Law.',
+          'Having completed mediation training, Atty. Samet Ümit is fluent in English; alongside his legal work, he is keenly interested in legal tech, global economic trends, and management strategies. As a founder of NS Law & Consultancy, he continues to deliver high-capacity legal support at global standards to corporate and individual clients.',
         ],
       },
     },
@@ -35,53 +40,30 @@ export function getStaticPaths() {
       params: { slug: 'oyku' },
       props: {
         name: 'Atty. Öykü Naz Karaman',
-        role: 'Founding Partner Attorney',
+        role: 'Founding Partner',
         image: url('/images/oyku.png'),
-        bar: 'Istanbul Bar Association',
+        bar: 'Ankara Bar Association',
         email: 'oyku@nshukuk.com',
-        phone: '+90 (212) 555 01 23',
-        languages: 'Turkish, English, French',
+        phone: '+90 544 646 73 49',
+        languages: 'Turkish, English',
         practices: [
-          'Data Protection (KVKK & GDPR)',
-          'Real Estate & Construction Law',
-          'Intellectual Property Law',
-          'Corporate Governance & Compliance',
+          'Cross-Border Disputes & Litigation',
+          'Market Integration for Foreign Enterprises',
+          'Company Incorporation & Corporate Structuring',
+          'Trademark Registration & IP Law',
+          'Labor Law & Corporate Counseling',
+          'Enforcement, Bankruptcy & Criminal Law',
+          'Family and Inheritance Law',
         ],
         education: [
-          'Galatasaray University Faculty of Law (LL.B.)',
-          'Sorbonne University (LL.M. in European & Corporate Law)',
+          'Bilkent University Faculty of Law (LL.B.)',
+          'Tilburg University (LL.M. in European Law and Global Risk)',
         ],
         bio: [
-          'Atty. Öykü Naz Karaman is a founding partner attorney specializing in data privacy law, real estate development projects, and regulatory compliance.',
-          'She oversees comprehensive KVKK and GDPR compliance programs for corporations while formulating preventive legal strategies in intellectual property and unfair competition disputes.',
-          'In real estate law, she handles complex construction contracts and cross-border commercial lease negotiations.',
-        ],
-      },
-    },
-    {
-      params: { slug: 'neslihan' },
-      props: {
-        name: 'Atty. Öykü Naz Karaman',
-        role: 'Founding Partner Attorney',
-        image: url('/images/oyku.png'),
-        bar: 'Istanbul Bar Association',
-        email: 'oyku@nshukuk.com',
-        phone: '+90 (212) 555 01 23',
-        languages: 'Turkish, English, French',
-        practices: [
-          'Data Protection (KVKK & GDPR)',
-          'Real Estate & Construction Law',
-          'Intellectual Property Law',
-          'Corporate Governance & Compliance',
-        ],
-        education: [
-          'Galatasaray University Faculty of Law (LL.B.)',
-          'Sorbonne University (LL.M. in European & Corporate Law)',
-        ],
-        bio: [
-          'Atty. Öykü Naz Karaman is a founding partner attorney specializing in data privacy law, real estate development projects, and regulatory compliance.',
-          'She oversees comprehensive KVKK and GDPR compliance programs for corporations while formulating preventive legal strategies in intellectual property and unfair competition disputes.',
-          'In real estate law, she handles complex construction contracts and cross-border commercial lease negotiations.',
+          'Graduating successfully from Bilkent University Faculty of Law, Atty. Öykü Naz Karaman deepened her international legal vision through her LL.M. studies in European Law and Global Risk at Tilburg University.',
+          'In her professional practice, she focuses particularly on cross-border disputes, playing an active role in market integration, company incorporation, corporate structuring, and trademark registration for foreign-invested enterprises in Turkey.',
+          'Alongside providing corporate consultancy to domestic and international corporations, she specializes in Labor Law, Enforcement and Bankruptcy Law, Criminal Law, Family and Inheritance Law, and Intellectual Property Law, delivering dynamic and solution-oriented litigation services.',
+          'Fluent in English, Atty. Öykü Naz Karaman participates in theater productions with the Ankara Bar Association Acting Workshop and enjoys international travel to explore new cultures. As a founder of NS Law & Consultancy, she continues to provide legal support at global standards to domestic and foreign clients.',
         ],
       },
     },
@@ -120,12 +102,16 @@ const { name, role, image, bar, email, phone, languages, practices, education, b
 
           <div class="space-y-4 pt-6 border-t border-white/10 text-xs text-cream-300 relative z-10">
             <div class="flex items-center gap-3">
-              <span class="text-gold-400 font-semibold w-24 uppercase tracking-wider">Bar Adress:</span>
+              <span class="text-gold-400 font-semibold w-24 uppercase tracking-wider">Bar Admission:</span>
               <span>{bar}</span>
             </div>
             <div class="flex items-center gap-3">
               <span class="text-gold-400 font-semibold w-24 uppercase tracking-wider">Languages:</span>
               <span>{languages}</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-gold-400 font-semibold w-24 uppercase tracking-wider">Phone:</span>
+              <a href={`tel:${phone.replace(/\s+/g, '')}`} class="hover:text-gold-400 transition-colors">{phone}</a>
             </div>
             <div class="flex items-center gap-3">
               <span class="text-gold-400 font-semibold w-24 uppercase tracking-wider">Email:</span>

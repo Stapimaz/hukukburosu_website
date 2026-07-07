@@ -43,6 +43,31 @@ export function getRouteFromUrl(url: URL, targetLang: string): string {
   if (parts[0] === 'en' || parts[0] === 'tr') {
     parts.shift();
   }
+
+  const routeTranslations: Record<string, Record<string, string>> = {
+    tr: {
+      'about': 'hakkimizda',
+      'contact': 'iletisim',
+      'articles': 'makaleler',
+      'team': 'ekip',
+    },
+    en: {
+      'hakkimizda': 'about',
+      'iletisim': 'contact',
+      'makaleler': 'articles',
+      'ekip': 'team',
+    }
+  };
+
+  if (parts.length > 0) {
+    if ((parts[0] === 'makaleler' || parts[0] === 'articles') && parts.length > 1) {
+      parts.length = 1;
+    }
+    
+    if (routeTranslations[targetLang]?.[parts[0]]) {
+      parts[0] = routeTranslations[targetLang][parts[0]];
+    }
+  }
   
   const rest = parts.join('/');
   let targetPath = '';
