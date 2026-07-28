@@ -1,4 +1,4 @@
----
+﻿---
 title: "Guide to SGK Contract Management and Penal Risks in Private Hospitals and Clinics"
 description: "Legal risks of private health institutions under SGK contracts and Ministry of Health legislation. A guide on protection from penalties deducted from gross income and suspension of activity sanctions."
 pubDate: 2026-03-15
@@ -47,7 +47,7 @@ In case of violation of the legislation and SGK contract provisions, the penal s
 
 The Ministry of Health's authority to plan, audit, and regulate the health sector is certainly not absolute and unlimited. The Council of State and the Court of Cassation have drawn very clear boundaries to protect the commercial and operational freedoms of hospitals:
 
-> [!NOTE]
+> **NOTE:**
 > **Precedent Council of State Decision: Quota Limitations are Unlawful**
 > Strict quota restrictions such as 15% or one-third brought by the Ministry of Health regarding the cooperations private hospitals will make with private practice physicians were found unlawful and annulled by the 10th Chamber of the Council of State on the grounds that they were not based on a scientific study and data. The administration cannot make restrictive regulations without concrete scientific data; otherwise, it is an exceeding of discretionary power.
 
@@ -66,3 +66,4 @@ As can be seen, penalties in health law are deducted on a percentage basis over 
 *As NS Law and Consultancy; we offer proactive health law consultancy for private hospitals, medical centers, and polyclinics. We protect your corporate rights in annulment lawsuits to be filed against unfair administrative fines and suspension of activity decisions applied by SGK/Ministry of Health.*
 
 To protect your company's operational freedom, complete your financial risk analyzes, and put your institution under legal assurance, you can contact us to make an appointment through our communication channels.
+

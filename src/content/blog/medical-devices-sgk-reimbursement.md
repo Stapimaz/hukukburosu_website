@@ -1,4 +1,4 @@
----
+﻿---
 title: "SGK Medical Device and Hearing Aid Difference Payment Recovery Lawsuit"
 description: "Is SGK not paying the full cost of hearing aids, cochlear implants, and prostheses? Reclaim the difference out of your pocket with legal interest through court decisions."
 pubDate: 2026-03-01
@@ -27,7 +27,7 @@ In concrete cases reflected in judicial processes, courts have developed very im
 
 In such a case, the market value of the new device can amount to approximately 170,000 TL. SGK, on the other hand, only pays the company around 76,000 TL due to the ceiling price in its own communiqué, and expects the patient to pay the very high difference of approximately 94,000 TL out of their pocket.
 
-> [!IMPORTANT]
+> **IMPORTANT:**
 > **What Do Labor Courts Say in This Situation?**
 > In the lawsuits filed, labor courts and expert committees look at these two questions:
 > 1. Is the use of this device medically mandatory for the patient's health and clinging to life?
@@ -61,3 +61,4 @@ Millions of citizens give up seeking their rights out of concern that "Will I go
 *If you have paid high differences for medical devices, prostheses, or hearing aids that you had to purchase for your health; it is your constitutional right to take this money back from SGK with legal interest.*
 
 As NS Law and Consultancy, with over eight years of experience in SGK lawsuits and health law, we professionally manage your process of collecting your money from the institution from start to finish. To recover the out-of-pocket payments and secure your rights, you can contact us immediately through our communication channels to make an appointment.
+

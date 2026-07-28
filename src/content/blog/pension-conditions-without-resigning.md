@@ -1,4 +1,4 @@
----
+﻿---
 title: "Retirement Conditions: Is It Possible to Retire Without Resigning?"
 description: "Can a retirement application be filed without leaving the job? Does the wear and tear allowance backdate the insurance start? A guide to service determination lawsuits and retirement rights."
 pubDate: 2026-05-01
@@ -21,7 +21,7 @@ In previous practices, for an insured person to request an old-age pension (reti
 
 The Constitutional Court annulled this requirement, finding it contrary to the constitutionally guaranteed right to social security. According to the court's reasoning, allowing the insured person to switch to "passive insured" status and receive a salary without leaving their job does not harm the functioning of the social security system.
 
-> [!TIP]
+> **TIP:**
 > **Current Situation:** If you have fulfilled the age, premium day count, and insurance period requirements, you can now apply for retirement without the condition of leaving your job. The General Assembly of Civil Chambers of the Court of Cassation also clearly protects this right in its decisions.
 
 ![Retirement and Law](/images/retirement_pension_law_1785249520452.png)
@@ -67,3 +67,4 @@ Retirement is not a simple administrative process consisting merely of filling o
 *As NS Law and Consultancy, we stand by you with over eight years of experience to ensure you do not experience a loss of rights while securing your future, to determine your missing premiums, and to carry out your retirement application under the most advantageous conditions.*
 
 To get a detailed legal analysis regarding your retirement rights, to initiate your service determination lawsuits, or to take the correct steps in accordance with the legislation, you can contact us to make an appointment through our communication channels.
+

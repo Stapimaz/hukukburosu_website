@@ -1,4 +1,4 @@
----
+﻿---
 title: "İşveren Rehberi: İş Kazası Bildirimi Gecikirse Ne Yapılmalıdır?"
 description: "İşverenler için iş kazası bildirim süresinin kaçırılması halinde doğacak riskler, SGK rücu davalarından korunma yolları ve hukuki çözüm haritası."
 pubDate: 2026-02-15
@@ -46,7 +46,7 @@ Eğer kaza iş yeri dışında (örneğin görevli gidilen bir iş seyahatinde) 
 | **İşçinin kazayı işverenden gizlemesi** | Geç bildirim nedeniyle kusurlu sayılma riski. | İşçinin bildirimi geç yaptığına dair (mesaj, e-posta, tutanak) tüm yazışmalar delil olarak SGK'ya sunulmalıdır. |
 | **Şüpheli kaza beyanları (İş dışı kazalar)** | Haksız tazminat talepleri ve şirket sicilinin bozulması. | İlk hastane giriş kayıtları (epikriz) ve iş yeri kamera görüntüleri uzman bir hukukçu eliyle incelenerek SGK'ya itiraz edilmelidir. |
 
-> [!WARNING]
+> **UYARI:**
 > **Şirketinizin Kurumsal Varlığını Tehlikeye Atmayın: Profesyonel Destek Alın**
 > Bir iş kazası sonrasında SGK müfettişlerinin yapacağı incelemeler, tutulacak kusur raporları ve açılması muhtemel maddi-manevi tazminat davaları, şirketlerin ticari geleceğini doğrudan tehdit eden unsurlardır. İş hukukunda ve SGK mevzuatında yapılacak ufak bir usul hatası, şirketlerin yüz binlerce liralık haksız rücu faturaları ile karşı karşıya kalmasına neden olur.
 
@@ -55,3 +55,4 @@ Kazanın ilk anından itibaren süreci bir avukat rehberliğinde yönetmek; iş 
 *NS Hukuk ve Danışmanlık olarak; işveren müvekkillerimizin kurumsal haklarını korumak, hatalı veya gecikmiş iş kazası bildirimlerinden kaynaklanan SGK uyuşmazlıklarını çözmek ve şirket aleyhine açılabilecek haksız tazminat davalarında güçlü bir savunma mekanizması kurmak adına proaktif hukuki danışmanlık hizmeti sunuyoruz.*
 
 Şirketinizin mali risklerini kontrol altına almak, cezai yaptırımlardan korunmak ve mevcut iş kazası süreçlerinizi hukuki güvenceye kavuşturmak için iletişim kanallarımız üzerinden bizimle doğrudan iletişime geçebilirsiniz.
+

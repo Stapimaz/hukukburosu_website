@@ -1,4 +1,4 @@
----
+﻿---
 title: "KHK ve İhraç Edilen Memurların Emekli İkramiyesi Hakkı (Güncel AYM Kararı)"
 description: "Kamudan ihraç edilen memurlar emekli ikramiyesi alabilir mi? Anayasa Mahkemesi emsal kararı ve SGK emekli ikramiyesi davası rehberi."
 pubDate: 2026-05-15
@@ -47,7 +47,7 @@ Süreç şu şekilde işlemektedir:
 > ↓
 > **3. Adım:** İdare Mahkemesinde İptal ve Tam Yargı Davası Açılması (60 günlük hak düşürücü süre içinde)
 
-> [!CAUTION]
+> **DİKKAT:**
 > **Zaman Aşımına ve Hak Düşürücü Sürelere Dikkat!**
 > SGK'dan gelen ret cevabından itibaren 60 gün içinde İdare Mahkemesinde dava açılması zorunludur. Bu sürenin kaçırılması halinde haklı olsanız dahi davanız süre yönünden reddedilir. Ayrıca geçmişte emekli olup ikramiyesini alamayanlar için de belirli idari başvuru süreleri bulunmaktadır. Dolayısıyla zamanlama hayati önem taşır.
 
@@ -57,7 +57,7 @@ Süreç şu şekilde işlemektedir:
 * Hizmet birleştirmesi (SSK + Emekli Sandığı) yaparak emekli olanlar,
 * Memuriyetten ayrıldıktan sonra yaşlılık aylığı bağlananlar.
 
-> [!NOTE]
+> **BİLGİ:**
 > İkramiye miktarı, memuriyetten ihraç edildiğiniz tarihteki derece, kademe ve o günün katsayıları üzerinden hesaplanır; ancak mahkeme kararıyla bu tutara geçmişten bugüne yasal faiz işletilerek paranın değer kaybı kısmen önlenir.
 
 ### Neden İdare Hukuku Uzmanı Bir Avukatla Çalışmalısınız?
@@ -67,3 +67,4 @@ SGK, mahkemelerin bu iptal kararlarına rağmen kurum politikasını değiştirm
 *NS Hukuk ve Danışmanlık olarak, kamudan ihraç edilen müvekkillerimizin idari başvuru süreçlerini titizlikle yönetiyor, sekiz yılı aşkın tecrübemizle SGK'ya karşı açılacak iptal davalarında hak ettiğiniz emekli ikramiyesini yasal faiziyle birlikte almanızı sağlıyoruz.*
 
 Hak kaybına uğramadan, emekli ikramiyesi hakkınızı güvenle talep etmek ve davanızı başlatmak için bizimle web sitemizde bulunan formu doldurarak veya doğrudan iletişim kanallarımızdan randevu alabilirsiniz.
+

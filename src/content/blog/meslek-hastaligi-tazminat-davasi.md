@@ -1,4 +1,4 @@
----
+﻿---
 title: "Meslek Hastalığı Tazminat Davası ve Haklarınız | Güncel Rehber"
 description: "İş yerindeki koşullar nedeniyle sağlığınızı mı kaybettiniz? Meslek hastalığı tazminat davası nasıl açılır? Zamanaşımı süreleri, tazminat kalemleri ve SGK tespit davası hakkında rehber."
 pubDate: 2026-04-01
@@ -40,7 +40,7 @@ Meslek hastalığı raporu işverene ulaştıktan sonra, işverenin bu durumu 3 
 
 Uygulamada en çok karşılaşılan sorunlardan biri, SGK Sağlık Kurullarının veya Yüksek Sağlık Kurulunun, işçinin başvurusunu "hastalık ile iş arasında doğrudan bir bağ bulunamadığı" gerekçesiyle reddetmesidir.
 
-> [!IMPORTANT]
+> **ÖNEMLİ:**
 > **Meslek Hastalığı Tespit Davası**
 > SGK'nın ret kararı, süreçlerin bittiği anlamına gelmez. Bu durumda işçinin yapması gereken, İş Mahkemesinde "Meslek Hastalığı Tespit Davası" açmaktır. Bu davada mahkeme; iş yerindeki çalışma koşullarını incelemek üzere iş güvenliği uzmanları görevlendirir, üniversitelerin adli tıp veya onkoloji/göğüs hastalıkları gibi kürsülerinden hakem hastane raporları alır. SGK'nın hatalı kararı mahkeme eliyle bozulduğunda, tüm haklarınızı geriye dönük olarak kazanabilirsiniz.
 
@@ -74,3 +74,4 @@ Meslek hastalıklarına ilişkin davalar; kusur oranlarının tespiti, tazminat 
 *Geleceğinizi ve sağlığınızı güvence altına almak, işverenin ihmallerinin faturasını tek başınıza ödememek ve hak ettiğiniz tüm maddi/manevi tazminatları eksiksiz tahsil etmek için 8 yılı aşkın süredir İş Hukuku alanında çalışan NS Hukuk ve Danışmanlık olarak size hukuki destek vermekten memnuniyet duyarız.*
 
 Meslek hastalığı sürecinizle ilgili profesyonel bir hukuki analiz yaptırmak ve dava şartlarınızı değerlendirmek için doğrudan iletişim numaralarımız üzerinden bize ulaşabilirsiniz.
+

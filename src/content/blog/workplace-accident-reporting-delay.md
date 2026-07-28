@@ -1,4 +1,4 @@
----
+﻿---
 title: "Employer's Guide: What to Do If Workplace Accident Reporting is Delayed?"
 description: "Risks arising for employers if the workplace accident notification period is missed, ways to protect against SGK recourse lawsuits, and a legal solution map."
 pubDate: 2026-02-15
@@ -46,7 +46,7 @@ Sometimes, a worker may portray an accident they had at home over the weekend as
 | **The worker hiding the accident from the employer** | Risk of being deemed faulty due to late notification. | All correspondence (messages, emails, minutes) showing the worker made the notification late should be presented to SGK as evidence. |
 | **Suspicious accident statements (Non-work accidents)** | Unjustified compensation claims and deterioration of the company registry. | Initial hospital admission records (epicrisis) and workplace camera footages should be examined by an expert lawyer and objected to SGK. |
 
-> [!WARNING]
+> **WARNING:**
 > **Do Not Endanger Your Company's Corporate Existence: Get Professional Support**
 > Following a workplace accident, investigations to be carried out by SGK inspectors, fault reports to be kept, and potential material-moral compensation lawsuits to be filed are elements that directly threaten the commercial future of companies. A minor procedural error to be made in labor law and SGK legislation causes companies to face unfair recourse invoices worth hundreds of thousands of liras.
 
@@ -55,3 +55,4 @@ Managing the process under the guidance of a lawyer from the very first moment o
 *As NS Law and Consultancy; we offer proactive legal consultancy services to protect the corporate rights of our employer clients, resolve SGK disputes arising from incorrect or delayed workplace accident notifications, and establish a strong defense mechanism in unjust compensation lawsuits that may be filed against the company.*
 
 To bring your company's financial risks under control, protect against penal sanctions, and secure your existing workplace accident processes legally, you can contact us directly through our communication channels.
+

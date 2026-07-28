@@ -1,4 +1,4 @@
----
+﻿---
 title: "Şirketlerde KVKK Uyumu ve Kurul Denetimlerinde Dikkat Edilmesi Gerekenler"
 description: "Kişisel Verileri Koruma Kanunu (KVKK) kapsamında şirketlerin yükümlülükleri, VERBİS kaydı ve idari para cezalarından korunma yolları."
 pubDate: 2026-06-20
@@ -27,3 +27,4 @@ Son yasal düzenlemeler ışığında, yurt dışına kişisel veri aktarımı k
 > "KVKK uyumu tek seferlik bir evrak yükü değil, yaşayan ve sürekli denetlenmesi gereken bir kurumsal kültürdür."
 
 *NS Hukuk Danışmanlık bünyesinde, şirketlerin baştan sona KVKK uyum projelerini yönetiyor, kurul denetimlerine karşı önleyici hukuki destek sağlıyoruz.*
+

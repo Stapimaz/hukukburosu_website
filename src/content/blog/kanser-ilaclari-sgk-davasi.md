@@ -1,4 +1,4 @@
----
+﻿---
 title: "SGK Kanser İlacını Ödemiyor mu? Akıllı İlaç Davası ve Geri Ödeme Rehberi"
 description: "SGK tarafından karşılanmayan akıllı kanser ilaçları ve immünoterapi bedelleri dava yoluyla nasıl alınır? İhtiyati tedbir kararıyla ücretsiz ilaç alma rehberi."
 pubDate: 2026-04-15
@@ -19,7 +19,7 @@ Ancak Asla Umutsuzluğa Kapılmayın! Hukuk sistemimiz ve yüksek mahkemelerimiz
 
 SGK, hangi ilaçların ve tedavi yöntemlerinin karşılanacağını kamu kaynaklarının sınırlılığı ve maliyet esaslarını gözeterek Sağlık Uygulama Tebliği (SUT) ile belirler. Kural olarak, bir ilacın parasının devlet tarafından ödenmesi için SUT eki olan "Bedeli Ödenecek İlaçlar Listesi"nde yer alması şarttır.
 
-> [!IMPORTANT]
+> **ÖNEMLİ:**
 > **Unutmayın: İnsan Hayatı Kurum Düzenlemelerinden Üstündür!** 
 > Yargıtay ve Danıştay kararlarına göre, bir ilacın SUT listesinde yer almaması veya hastanın evresi gibi SUT'ta aranan çok katı tıbbi kriterleri birebir karşılamaması, o ilacın devlet tarafından ödenmeyeceği anlamına gelmez. Mahkemelerimiz, Anayasa ile güvence altına alınan "yaşam hakkı" ve "tedaviye erişim hakkı" ilkelerini, kurumların bütçe hesaplarının her zaman üzerinde tutmaktadır. Dolayısıyla, SGK'dan gelen "Ret" cevabı sürecin sonu değil, hakkınızı alacağımız hukuki mücadelenin sadece ilk adımıdır.
 
@@ -54,7 +54,7 @@ SGK'ya karşı açılacak bu davalar tamamen teknik ve tıbbi uzmanlık gerektir
 | **3. Adım: Hesap Raporu** | Tıbbi zorunluluk saptanınca, ilaç bedelinin uygunluğu ve varsa katkı payları hesaplattırılır. | Denetime Elverişli Hesap Raporu |
 | **4. Adım: Geriye Dönük Haklar** | İlacın SUT listesine alınmasından önce cepten ödenerek kullanılmış olması geri ödemeye engel değildir; geçmiş paralar da talep edilebilir. | Eşitlik ve Aciliyet İlkesi |
 
-> [!WARNING]
+> **UYARI:**
 > Yargılama sürecinde hastanın vefat etmesi durumunda, mirasçıların hak kaybına uğramaması için ölüm tarihinden itibaren belirli süreler içinde (örneğin AYM süreçlerinde 4 ay içinde) davayı devam ettirme iradelerini mahkemeye sunmaları şarttır; aksi takdirde dava düşer. Mirasın reddedilmesi durumunda ise dava hakkı tamamen ortadan kalkar.
 
 ### Bu Zorlu Mücadelede Yalnız Değilsiniz: Profesyonel Destek Alın
@@ -62,3 +62,4 @@ SGK'ya karşı açılacak bu davalar tamamen teknik ve tıbbi uzmanlık gerektir
 SGK akıllı ilaç davaları; hak düşürücü sürelerin takibi, endikasyon dışı kullanım izinlerinin analizi, onkoloji heyet raporlarının organize edilmesi ve Anayasa Mahkemesi'nin "başvuru yollarının tüketilmesi" kurallarına tam uyum sağlanması bakımından mutlak surette bir uzman avukatın desteğini gerektirir. Hatalı veya rastgele açılan davalar ne yazık ki usul eksiklikleri nedeniyle reddedilebilmekte ve telafisi imkansız sonuçlar doğurabilmektedir.
 
 *Kanserle mücadele ederken bir de bürokrasinin hantal çarklarıyla ve hukuki prosedürlerle savaşmak zorunda değilsiniz. Sağlık hakkınızın, zamanınızın ve geleceğinizin bürokratik engellere takılmaması, SGK tarafından reddedilen kanser ilaçlarınızın bedelini yasal faiziyle geri almak ve tedbir kararıyla tedavinize ücretsiz devam edebilmek için iletişim kanallarımız üzerinden bizimle iletişime geçebilirsiniz.*
+

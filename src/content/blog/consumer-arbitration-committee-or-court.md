@@ -1,4 +1,4 @@
----
+﻿---
 title: "Consumer Arbitration Committee or Consumer Court? | Execution Proceedings After the Decision"
 description: "How do you get your money back when you purchase defective goods or services? A guide to the Consumer Arbitration Committee application conditions, court process, and execution proceedings after the arbitration committee decision."
 pubDate: 2026-02-01
@@ -46,7 +46,7 @@ There are two vital points you need to pay attention to in Consumer Court proces
 
 ### 3. What Should Be Done After the Consumer Arbitration Committee Decision? (The Most Critical Stage to Recover Your Money)
 
-> [!WARNING]
+> **WARNING:**
 > The biggest misconception that many citizens fall into is this: "The arbitration committee accepted my case, the decision is out, my money will automatically be deposited into my bank account."
 > 
 > **Unfortunately, the process does not work that way!** Consumer Arbitration Committee decisions legally have the power of a court writ (decision). However, the issuance of the decision does not mean that the seller will spontaneously pay you money. Many cunning companies ignore the arbitration committee decision and do not make the payment so that the consumer gives up chasing it.
@@ -61,3 +61,4 @@ Although consumer law seems easy at first glance; tracking prescriptive periods,
 *As NS Law and Consultancy; we defend consumers' rights to the end in disputes over defective vehicles, housing, electronic goods, package tours, and all kinds of distance sales (internet shopping). With the confidence provided by over eight years of experience, we make your arbitration committee applications completely, manage your mediation processes, and collect your money from the seller along with legal interest by quickly putting the decisions we win into execution.*
 
 To put an end to your grievance, entrust your rights to a professional team, and securely get your money back, you can make an appointment through our communication form without wasting time.
+

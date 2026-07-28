@@ -1,4 +1,4 @@
----
+﻿---
 title: "Emeklilik Şartları: İşten Ayrılmadan Emekli Olmak Mümkün Mü?"
 description: "İşten ayrılmadan emeklilik dilekçesi verilir mi? Yıpranma payı sigorta başlangıcını geriye çeker mi? Hizmet tespiti davası ve emeklilik hakları rehberi."
 pubDate: 2026-05-01
@@ -21,7 +21,7 @@ Eski uygulamalarda, bir sigortalının yaşlılık aylığı (emekli maaşı) ta
 
 Anayasa Mahkemesi, bu zorunluluğu anayasal güvence altında olan sosyal güvenlik hakkına aykırı bularak iptal etmiştir. Mahkemenin gerekçesine göre, sigortalının işinden ayrılmadan da "pasif sigortalı" statüsüne geçerek aylık bağlatması sosyal güvenlik sisteminin işleyişine zarar vermemektedir.
 
-> [!TIP]
+> **İPUCU:**
 > **Mevcut Durum:** Yaş, prim gün sayısı ve sigortalılık süresi şartlarını tamamladıysanız, artık işten ayrılma şartı aranmaksızın emeklilik talebinde bulunabilirsiniz. Yargıtay Hukuk Genel Kurulu da kararlarında bu hakkı net bir şekilde korumaktadır.
 
 ![Emeklilik ve Hukuk Görseli](/images/retirement_pension_law_1785249520452.png)
@@ -67,3 +67,4 @@ Emeklilik, sadece form doldurup kuruma teslim etmekten ibaret basit bir idari i�
 *Geleceğinizi güvence altına alırken hak kaybı yaşamamak, eksik primlerinizin tespiti ve en avantajlı şartlarla emeklilik başvurunuzu gerçekleştirmek için sekiz yılı aşkın tecrübemizle NS Hukuk ve Danışmanlık olarak yanınızdayız.*
 
 Emeklilik haklarınızla ilgili detaylı hukuki analiz almak, hizmet tespiti davalarınızı başlatmak veya mevzuata uygun doğru adımları atmak için bizimle iletişim kanallarımızdan randevu alabilirsiniz.
+

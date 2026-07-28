@@ -31,3 +31,9 @@
     @apply bg-white/60 dark:bg-navy-800/60 backdrop-blur-sm border border-navy-900/5 dark:border-white/5 hover:border-gold-500/50 dark:hover:border-gold-500/50 transition-all duration-300 shadow-sm hover:shadow-md;
   }
 }
+  .prose blockquote p:first-of-type::before {
+    content: none !important;
+  }
+  .prose blockquote p:last-of-type::after {
+    content: none !important;
+  }

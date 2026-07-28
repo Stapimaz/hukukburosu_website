@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tüketici Hakem Heyeti mi, Tüketici Mahkemesi mi? | Karardan Sonra İcra Takibi"
 description: "Ayıplı mal veya hizmet aldığınızda paranızı nasıl geri alırsınız? Tüketici Hakem Heyeti başvuru şartları, mahkeme süreci ve hakem heyeti kararı sonrası icra takibi rehberi."
 pubDate: 2026-02-01
@@ -46,7 +46,7 @@ Tüketici Mahkemesi süreçlerinde dikkat etmeniz gereken iki hayati nokta vard�
 
 ### 3. Tüketici Hakem Heyeti Kararından Sonra Ne Yapmak Gerekir? (Paranızı Kurtaracak En Kritik Aşama)
 
-> [!WARNING]
+> **UYARI:**
 > Birçok vatandaşın düştüğü en büyük yanılgı şudur: "Hakem heyeti davamı kabul etti, karar çıktı, param otomatik olarak banka hesabıma yatacak."
 > 
 > **Maalesef süreç böyle işlemiyor!** Tüketici Hakem Heyeti kararları hukuken mahkeme ilamı (kararı) gücündedir. Ancak kararın çıkması, satıcının size kendiliğinden para ödeyeceği anlamına gelmez. Birçok uyanık firma, tüketici peşini bıraksın diye hakem heyeti kararını görmezden gelir ve ödeme yapmaz.
@@ -61,3 +61,4 @@ Tüketici hukuku ilk bakışta kolay görünse de; hak düşürücü sürelerin 
 *NS Hukuk ve Danışmanlık olarak; ayıplı araç, konut, elektronik eşya, paket tur ve her türlü mesafeli satış (internet alışverişi) uyuşmazlıklarında tüketicilerin haklarını sonuna kadar savunuyoruz. Sekiz yılı aşkın tecrübemizin verdiği güvenle, hakem heyeti başvurularınızı eksiksiz yapıyor, arabuluculuk süreçlerinizi yönetiyor ve kazandığımız kararları hızlıca icraya koyarak paranızı yasal faiziyle birlikte satıcıdan tahsil ediyoruz.*
 
 Mağduriyetinize son vermek, haklarınızı profesyonel bir ekibe emanet etmek ve paranızı güvenle geri almak için iletişim formumuzdan randevu alabilirsiniz.
+

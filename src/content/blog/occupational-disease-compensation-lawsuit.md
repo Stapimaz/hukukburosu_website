@@ -1,4 +1,4 @@
----
+﻿---
 title: "Occupational Disease Compensation Lawsuit and Your Rights | Current Guide"
 description: "Have you lost your health due to conditions at the workplace? How to file an occupational disease compensation lawsuit? A guide to statutes of limitations, compensation items, and SGK determination lawsuits."
 pubDate: 2026-04-01
@@ -40,7 +40,7 @@ After the occupational disease report reaches the employer, it is a legal obliga
 
 In practice, one of the most common problems is that SGK Health Boards or the High Health Board reject the worker's application on the grounds that "no direct link could be found between the illness and the work."
 
-> [!IMPORTANT]
+> **IMPORTANT:**
 > **Occupational Disease Determination Lawsuit**
 > SGK's rejection decision does not mean the processes are over. In this case, what the worker needs to do is file an "Occupational Disease Determination Lawsuit" in the Labor Court. In this lawsuit, the court appoints occupational safety experts to examine the working conditions at the workplace and obtains referee hospital reports from chairs such as forensic medicine or oncology/chest diseases of universities. When SGK's erroneous decision is overturned by the court, you can win all your rights retroactively.
 
@@ -74,3 +74,4 @@ Lawsuits related to occupational diseases are one of the most technical and comp
 *To secure your future and health, to not pay the bill for the employer's negligence alone, and to fully collect all the material/moral compensation you deserve, as NS Law and Consultancy, which has been working in the field of Labor Law for over 8 years, we will be pleased to provide you with legal support.*
 
 To have a professional legal analysis regarding your occupational disease process and to evaluate your lawsuit conditions, you can contact us directly via our communication numbers.
+

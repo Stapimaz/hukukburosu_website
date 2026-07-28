@@ -1,4 +1,4 @@
----
+﻿---
 title: "Doing Business and Legal Framework for Foreign Investors in Turkey"
 description: "An overview of corporate law, foreign investment incentives, and dispute resolution mechanisms for international corporations entering the Turkish market."
 pubDate: 2026-06-25
@@ -31,3 +31,4 @@ For international corporations entering the Turkish market, the two most common 
 Turkey is a signatory to the **1958 New York Convention**, meaning foreign arbitral awards are readily recognized and enforceable in Turkish courts. Furthermore, Istanbul is rapidly emerging as a regional arbitration hub through institutions like the **Istanbul Arbitration Centre (ISTAC)**.
 
 *At NS Law & Consultancy, we provide comprehensive, bilingual legal guidance to international enterprises, managing everything from company incorporation to cross-border M&A transactions.*
+

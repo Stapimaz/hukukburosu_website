@@ -1,4 +1,4 @@
----
+﻿---
 title: "Is SGK Refusing to Pay for Cancer Drugs? A Guide to Smart Drug Lawsuits and Reimbursement"
 description: "How to recover the costs of smart cancer drugs and immunotherapy not covered by SGK through litigation? A guide on receiving free medication with an interim injunction."
 pubDate: 2026-04-15
@@ -19,7 +19,7 @@ But Never Lose Hope! Our legal system and high courts never allow any bureaucrat
 
 SGK determines which drugs and treatment methods will be covered through the Health Implementation Communiqué (SUT), taking into account the limitations of public resources and cost principles. As a rule, for a drug's cost to be paid by the state, it must be included in the "List of Drugs to Be Reimbursed" attached to the SUT.
 
-> [!IMPORTANT]
+> **IMPORTANT:**
 > **Remember: Human Life is Above Institutional Regulations!**
 > According to the decisions of the Court of Cassation and the Council of State, the fact that a drug is not on the SUT list or that the patient does not exactly meet the very strict medical criteria sought in the SUT, such as the stage of the disease, does not mean that the drug will not be paid for by the state. Our courts always place the principles of the "right to life" and the "right to access treatment" guaranteed by the Constitution above the budget calculations of institutions. Therefore, a "Rejection" response from SGK is not the end of the process, but merely the first step of the legal struggle where we will claim your right.
 
@@ -54,7 +54,7 @@ These lawsuits to be filed against SGK are processes that require complete techn
 | **Step 3: Calculation Report** | Once medical necessity is established, the appropriateness of the drug cost and co-payments, if any, are calculated. | Auditable Calculation Report |
 | **Step 4: Retroactive Rights** | The fact that the drug was used by paying out of pocket before being included in the SUT list is not an obstacle to reimbursement; past payments can also be requested. | Principle of Equality and Urgency |
 
-> [!WARNING]
+> **WARNING:**
 > In the event of the patient's death during the trial process, in order for the heirs not to lose their rights, they must submit their will to continue the case to the court within certain periods from the date of death (for example, within 4 months in AYM processes); otherwise, the case will be dropped. If the inheritance is rejected, the right to litigate completely disappears.
 
 ### You Are Not Alone in This Difficult Struggle: Get Professional Support
@@ -62,3 +62,4 @@ These lawsuits to be filed against SGK are processes that require complete techn
 SGK smart drug lawsuits absolutely require the support of an expert attorney in terms of tracking prescriptive periods, analyzing off-label use permits, organizing oncology board reports, and ensuring full compliance with the AYM's rules on "exhaustion of domestic remedies." Unfortunately, incorrectly or randomly filed lawsuits can be rejected due to procedural deficiencies and lead to irreparable consequences.
 
 *While fighting cancer, you do not have to fight the cumbersome wheels of bureaucracy and legal procedures as well. So that your right to health, time, and future are not hindered by bureaucratic obstacles, to recover the cost of your cancer drugs rejected by SGK with legal interest, and to continue your treatment free of charge with an interim injunction, you can contact us through our communication channels.*
+

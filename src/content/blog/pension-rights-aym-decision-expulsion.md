@@ -1,4 +1,4 @@
----
+﻿---
 title: "Pension Rights for Public Officers Expelled by Decree Laws: Recent AYM Decision"
 description: "Can public officers expelled from public service receive their retirement bonuses? A guide on the Constitutional Court precedent and filing a lawsuit against the Social Security Institution."
 pubDate: 2026-05-15
@@ -47,7 +47,7 @@ The process works as follows:
 > ↓
 > **Step 3:** Filing an Annulment and Full Remedy Action in the Administrative Court (Within the 60-day prescriptive period)
 
-> [!CAUTION]
+> **CAUTION:**
 > **Pay Attention to the Statute of Limitations and Prescriptive Periods!**
 > It is mandatory to file a lawsuit in the Administrative Court within 60 days from the rejection response from SGK. If this period is missed, your lawsuit will be rejected due to time limits, even if you are right. Furthermore, there are specific administrative application periods for those who retired in the past and could not receive their bonuses. Therefore, timing is crucial.
 
@@ -57,7 +57,7 @@ The process works as follows:
 * Those who retire by merging services (SSK + Retirement Fund),
 * Those who are granted an old-age pension after leaving the civil service.
 
-> [!NOTE]
+> **NOTE:**
 > The amount of the bonus is calculated based on your degree, level, and the coefficients of the day you were expelled from the civil service; however, with a court decision, legal interest is applied to this amount from the past to the present, partially preventing the depreciation of the money.
 
 ### Why Should You Work with an Administrative Law Expert Attorney?
@@ -67,3 +67,4 @@ Despite these annulment decisions by the courts, SGK does not change its institu
 *At NS Law and Consultancy, we meticulously manage the administrative application processes of our clients expelled from public service. With over eight years of experience, we ensure that you receive the retirement bonus you deserve, along with legal interest, in the annulment lawsuits filed against SGK.*
 
 To securely claim your right to a retirement bonus without any loss of rights and to initiate your lawsuit, you can contact us by filling out the form on our website or through our direct communication channels to make an appointment.
+

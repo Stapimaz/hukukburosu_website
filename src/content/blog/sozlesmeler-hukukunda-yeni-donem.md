@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sözleşmeler Hukukunda Dijitalleşme ve Akıllı Sözleşmeler"
 description: "Ticari hayatta dijitalleşmenin etkisiyle geleneksel sözleşmelerin yerini alan elektronik imza, blokzincir ve akıllı sözleşmelerin hukuki geçerliliği."
 pubDate: 2026-06-15
@@ -31,3 +31,4 @@ Ticari işletmelerin dijital sözleşme altyapılarına geçerken:
 * KVKK ve veri güvenliği standartlarına tam uyum sağlamaları önem arz etmektedir.
 
 *NS Hukuk Danışmanlık olarak, şirketinizin dijital dönüşüm süreçlerinde ve karmaşık ticari sözleşmelerin hazırlanmasında hukuki danışmanlık hizmeti sunmaktayız.*
+

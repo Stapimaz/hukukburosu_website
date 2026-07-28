@@ -1,4 +1,4 @@
----
+﻿---
 title: "Özel Hastane ve Kliniklerde SGK Sözleşme Yönetimi ve Cezai Riskler Rehberi"
 description: "Özel sağlık kuruluşlarının SGK sözleşmeleri ve Sağlık Bakanlığı mevzuatı kapsamındaki hukuki riskleri. Brüt gelirden kesilen cezalar ve faaliyet durdurma yaptırımlarından korunma rehberi."
 pubDate: 2026-03-15
@@ -47,7 +47,7 @@ Mevzuata ve SGK sözleşme hükümlerine aykırılık tespiti halinde, idarenin 
 
 Sağlık Bakanlığı’nın sağlık sektörünü planlama, denetleme ve düzenleme yetkisi kesinlikle mutlak ve sınırsız değildir. Danıştay ve Yargıtay, hastanelerin ticari ve operasyonel özgürlüklerini korumak adına çok net sınırlar çizmiştir:
 
-> [!NOTE]
+> **BİLGİ:**
 > **Emsal Danıştay Kararı: Kota Sınırlamaları Hukuka Aykırıdır** 
 > Sağlık Bakanlığı tarafından özel hastanelerin muayenehane hekimleriyle yapacağı iş birliklerine yönelik getirdiği %15 veya üçte bir gibi katı kota kısıtlamaları, Danıştay 10. Dairesi tarafından bilimsel bir çalışmaya ve veriye dayanmadığı gerekçesiyle hukuka aykırı bulunarak iptal edilmiştir. İdare, bilimsel somut veri olmaksızın kısıtlayıcı düzenleme yapamaz; aksi durum takdir yetkisinin aşılmasıdır.
 
@@ -66,3 +66,4 @@ Görüldüğü üzere, sağlık hukukunda cezalar işlem bazlı olmaktan ziyade,
 *NS Hukuk ve Danışmanlık olarak; özel hastaneler, tıp merkezleri ve poliklinikler için proaktif sağlık hukuku danışmanlığı sunuyoruz. SGK/Sağlık Bakanlığı tarafından uygulanan haksız idari para cezaları ile faaliyet durdurma kararlarına karşı yürütülecek iptal davalarında kurumsal haklarınızı koruyoruz.*
 
 Şirketinizin operasyonel özgürlüğünü korumak, mali risk analizlerinizi tamamlamak ve kurumunuzu yasal güvence altına almak için iletişim kanallarımız üzerinden randevu alabilirsiniz.
+
