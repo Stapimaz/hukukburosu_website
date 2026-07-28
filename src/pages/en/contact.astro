@@ -110,32 +110,20 @@ const t = useTranslations('en');
           </div>
 
           <!-- GOOGLE FORMS IFRAME CONTAINER -->
-          <div class="w-full min-h-[600px] rounded-xl overflow-hidden bg-cream-50 dark:bg-navy-900 border border-navy-900/10 dark:border-white/10 relative flex flex-col items-center justify-center p-4">
+          <div class="w-full min-h-[850px] rounded-xl overflow-hidden bg-cream-50 dark:bg-navy-900 border border-navy-900/10 dark:border-white/10 flex flex-col items-center justify-center p-2 sm:p-4">
             
-            <!-- Dummy / Sample Form Placeholder (Replace src with your Google Form embed URL) -->
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSeempty_placeholder_url/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLScJcZPHx9Ecx23fndqutgM44NUkYPCk7fo80t5t9zkeUvkQwg/viewform?embedded=true"
               width="100%"
-              height="650"
+              height="850"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
-              class="w-full h-[650px] rounded-lg border-0 bg-transparent"
+              class="w-full h-[850px] rounded-lg border-0 bg-transparent"
               title="NS Law Contact Form"
             >
               Loading…
             </iframe>
-
-            <!-- Fallback explanation box -->
-            <div class="absolute inset-x-8 inset-y-16 bg-white/95 dark:bg-navy-900/95 backdrop-blur-md p-8 rounded-xl border border-gold-500/40 flex flex-col items-center justify-center text-center space-y-4 pointer-events-none">
-              <div class="w-12 h-12 rounded-full bg-gold-500/20 text-gold-600 dark:text-gold-400 flex items-center justify-center">
-                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-              </div>
-              <h4 class="font-serif font-bold text-lg text-navy-900 dark:text-cream-100">Google Form Container Ready</h4>
-              <p class="text-xs text-navy-700 dark:text-cream-300/80 max-w-md">
-                Paste your Google Form embed link into the <code>iframe src=""</code> attribute inside <code>src/pages/en/contact.astro</code> to display your interactive form here.
-              </p>
-            </div>
 
           </div>
 
