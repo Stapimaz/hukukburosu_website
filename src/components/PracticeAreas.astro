@@ -1,4 +1,4 @@
-﻿---
+---
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
@@ -42,8 +42,10 @@ const practices = [
       </p>
     </div>
 
-    <!-- Practice Areas Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Expandable Practice Areas Wrapper -->
+    <div id="practice-container" class="relative overflow-hidden transition-[max-height] duration-700 ease-in-out" style="max-height: 480px;">
+      <!-- Practice Areas Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-8">
       {practices.map((item) => (
         <div class="bg-glass-card p-8 rounded-lg space-y-5 border border-navy-900/5 dark:border-white/5 hover:border-gold-500/50 group transition-all duration-300 relative overflow-hidden">
           
@@ -82,9 +84,41 @@ const practices = [
 
         </div>
       ))}
+      </div>
+      
+      <!-- Fade & Blur overlay -->
+      <div id="practice-overlay" class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-cream-100 dark:from-navy-900 to-transparent flex items-end justify-center pb-2 backdrop-blur-[1px] transition-opacity duration-700">
+        <!-- Expand Button -->
+        <button id="practice-expand-btn" class="flex flex-col items-center text-navy-700 dark:text-cream-300 hover:text-gold-600 dark:hover:text-gold-400 transition-colors z-20">
+          <span class="text-xs font-bold uppercase tracking-widest mb-1">{lang === 'tr' ? 'Tümünü Gör' : 'View All'}</span>
+          <svg class="w-5 h-5 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+      </div>
     </div>
 
   </div>
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('practice-container');
+    const overlay = document.getElementById('practice-overlay');
+    const btn = document.getElementById('practice-expand-btn');
+
+    if (container && overlay && btn) {
+      btn.addEventListener('click', () => {
+        container.style.maxHeight = container.scrollHeight + 'px';
+        overlay.style.opacity = '0';
+        overlay.style.pointerEvents = 'none';
+        
+        setTimeout(() => {
+          container.style.maxHeight = 'none';
+        }, 700);
+      });
+    }
+  });
+</script>
 
 
