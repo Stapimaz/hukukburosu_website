@@ -3,7 +3,7 @@ title: "Occupational Disease Compensation Lawsuit and Your Rights | Current Guid
 description: "Have you lost your health due to conditions at the workplace? How to file an occupational disease compensation lawsuit? A guide to statutes of limitations, compensation items, and SGK determination lawsuits."
 pubDate: 2026-04-01
 author: "Atty. Samet Ümit"
-image: "/hukukburosu_website/images/blog/workplace_safety_law.png"
+image: "/images/blog/workplace_safety_law.png"
 tags: ["Labor Law", "Occupational Disease", "Compensation"]
 lang: "en"
 ---
@@ -75,5 +75,6 @@ Lawsuits related to occupational diseases are one of the most technical and comp
 *To secure your future and health, to not pay the bill for the employer's negligence alone, and to fully collect all the material/moral compensation you deserve, as NS Law and Consultancy, which has been working in the field of Labor Law for over 8 years, we will be pleased to provide you with legal support.*
 
 To have a professional legal analysis regarding your occupational disease process and to evaluate your lawsuit conditions, you can contact us directly via our communication numbers.
+
 
 

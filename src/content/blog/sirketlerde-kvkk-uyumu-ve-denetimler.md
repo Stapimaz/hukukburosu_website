@@ -29,3 +29,4 @@ Son yasal düzenlemeler ışığında, yurt dışına kişisel veri aktarımı k
 *NS Hukuk Danışmanlık bünyesinde, şirketlerin baştan sona KVKK uyum projelerini yönetiyor, kurul denetimlerine karşı önleyici hukuki destek sağlıyoruz.*
 
 
+

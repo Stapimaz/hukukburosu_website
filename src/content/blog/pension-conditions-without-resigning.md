@@ -3,7 +3,7 @@ title: "Retirement Conditions: Is It Possible to Retire Without Resigning?"
 description: "Can a retirement application be filed without leaving the job? Does the wear and tear allowance backdate the insurance start? A guide to service determination lawsuits and retirement rights."
 pubDate: 2026-05-01
 author: "Atty. Samet Ümit"
-image: "/hukukburosu_website/images/blog/retirement_pension_law.png"
+image: "/images/blog/retirement_pension_law.png"
 tags: ["Labor Law", "Retirement", "Social Security"]
 lang: "en"
 ---
@@ -68,5 +68,6 @@ Retirement is not a simple administrative process consisting merely of filling o
 *As NS Law and Consultancy, we stand by you with over eight years of experience to ensure you do not experience a loss of rights while securing your future, to determine your missing premiums, and to carry out your retirement application under the most advantageous conditions.*
 
 To get a detailed legal analysis regarding your retirement rights, to initiate your service determination lawsuits, or to take the correct steps in accordance with the legislation, you can contact us to make an appointment through our communication channels.
+
 
 

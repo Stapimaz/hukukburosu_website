@@ -3,7 +3,7 @@ title: "Pension Rights for Public Officers Expelled by Decree Laws: Recent AYM D
 description: "Can public officers expelled from public service receive their retirement bonuses? A guide on the Constitutional Court precedent and filing a lawsuit against the Social Security Institution."
 pubDate: 2026-05-15
 author: "Atty. Samet Ümit"
-image: "/hukukburosu_website/images/blog/gavel_courthouse_aym.png"
+image: "/images/blog/gavel_courthouse_aym.png"
 tags: ["Administrative Law", "Pension Rights", "Constitutional Court"]
 lang: "en"
 ---
@@ -68,5 +68,6 @@ Despite these annulment decisions by the courts, SGK does not change its institu
 *At NS Law and Consultancy, we meticulously manage the administrative application processes of our clients expelled from public service. With over eight years of experience, we ensure that you receive the retirement bonus you deserve, along with legal interest, in the annulment lawsuits filed against SGK.*
 
 To securely claim your right to a retirement bonus without any loss of rights and to initiate your lawsuit, you can contact us by filling out the form on our website or through our direct communication channels to make an appointment.
+
 
 

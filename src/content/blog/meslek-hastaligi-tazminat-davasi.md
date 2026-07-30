@@ -3,7 +3,7 @@ title: "Meslek Hastalığı Tazminat Davası ve Haklarınız | Güncel Rehber"
 description: "İş yerindeki koşullar nedeniyle sağlığınızı mı kaybettiniz? Meslek hastalığı tazminat davası nasıl açılır? Zamanaşımı süreleri, tazminat kalemleri ve SGK tespit davası hakkında rehber."
 pubDate: 2026-04-01
 author: "Av. Samet Ümit"
-image: "/hukukburosu_website/images/blog/workplace_safety_law.png"
+image: "/images/blog/workplace_safety_law.png"
 tags: ["İş Hukuku", "Meslek Hastalığı", "Tazminat"]
 lang: "tr"
 ---
@@ -75,5 +75,6 @@ Meslek hastalıklarına ilişkin davalar; kusur oranlarının tespiti, tazminat 
 *Geleceğinizi ve sağlığınızı güvence altına almak, işverenin ihmallerinin faturasını tek başınıza ödememek ve hak ettiğiniz tüm maddi/manevi tazminatları eksiksiz tahsil etmek için 8 yılı aşkın süredir İş Hukuku alanında çalışan NS Hukuk ve Danışmanlık olarak size hukuki destek vermekten memnuniyet duyarız.*
 
 Meslek hastalığı sürecinizle ilgili profesyonel bir hukuki analiz yaptırmak ve dava şartlarınızı değerlendirmek için doğrudan iletişim numaralarımız üzerinden bize ulaşabilirsiniz.
+
 
 

@@ -3,7 +3,7 @@ title: "Employer's Guide: What to Do If Workplace Accident Reporting is Delayed?
 description: "Risks arising for employers if the workplace accident notification period is missed, ways to protect against SGK recourse lawsuits, and a legal solution map."
 pubDate: 2026-02-15
 author: "Atty. Samet Ümit"
-image: "/hukukburosu_website/images/blog/workplace_accident_reporting.png"
+image: "/images/blog/workplace_accident_reporting.png"
 tags: ["Labor Law", "Workplace Accident", "Employer Rights"]
 lang: "en"
 ---
@@ -56,5 +56,6 @@ Managing the process under the guidance of a lawyer from the very first moment o
 *As NS Law and Consultancy; we offer proactive legal consultancy services to protect the corporate rights of our employer clients, resolve SGK disputes arising from incorrect or delayed workplace accident notifications, and establish a strong defense mechanism in unjust compensation lawsuits that may be filed against the company.*
 
 To bring your company's financial risks under control, protect against penal sanctions, and secure your existing workplace accident processes legally, you can contact us directly through our communication channels.
+
 
 

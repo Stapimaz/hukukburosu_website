@@ -3,7 +3,7 @@ title: "Is SGK Refusing to Pay for Cancer Drugs? A Guide to Smart Drug Lawsuits 
 description: "How to recover the costs of smart cancer drugs and immunotherapy not covered by SGK through litigation? A guide on receiving free medication with an interim injunction."
 pubDate: 2026-04-15
 author: "Atty. Öykü Naz Karaman"
-image: "/hukukburosu_website/images/blog/medical_law_drugs.png"
+image: "/images/blog/medical_law_drugs.png"
 tags: ["Health Law", "SGK Lawsuits", "Patient Rights"]
 lang: "en"
 ---
@@ -63,5 +63,6 @@ These lawsuits to be filed against SGK are processes that require complete techn
 SGK smart drug lawsuits absolutely require the support of an expert attorney in terms of tracking prescriptive periods, analyzing off-label use permits, organizing oncology board reports, and ensuring full compliance with the AYM's rules on "exhaustion of domestic remedies." Unfortunately, incorrectly or randomly filed lawsuits can be rejected due to procedural deficiencies and lead to irreparable consequences.
 
 *While fighting cancer, you do not have to fight the cumbersome wheels of bureaucracy and legal procedures as well. So that your right to health, time, and future are not hindered by bureaucratic obstacles, to recover the cost of your cancer drugs rejected by SGK with legal interest, and to continue your treatment free of charge with an interim injunction, you can contact us through our communication channels.*
+
 
 

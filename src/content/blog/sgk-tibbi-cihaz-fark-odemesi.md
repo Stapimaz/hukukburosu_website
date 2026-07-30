@@ -3,7 +3,7 @@ title: "SGK Tıbbi Cihaz ve İşitme Cihazı Fark Ödemesini Geri Alma Davası"
 description: "SGK işitme cihazı, koklear implant ve protez bedelinin tamamını ödemiyor mu? Mahkeme kararlarıyla cebinizden çıkan farkı yasal faiziyle geri alın."
 pubDate: 2026-03-01
 author: "Av. Öykü Naz Karaman"
-image: "/hukukburosu_website/images/blog/medical_devices_law.png"
+image: "/images/blog/medical_devices_law.png"
 tags: ["Sağlık Hukuku", "SGK Davaları", "Tıbbi Cihazlar"]
 lang: "tr"
 ---
@@ -62,5 +62,6 @@ Milyonlarca vatandaş, "SGK ile mahkemelik mi olacağım?" ya da "Dava masraflar
 *Sağlığınız için satın almak zorunda kaldığınız tıbbi cihazlara, protezlere veya işitme cihazlarına yüksek farklar ödediyseniz; bu parayı yasal faiziyle birlikte SGK'dan geri almanız anayasal hakkınızdır.*
 
 NS Hukuk ve Danışmanlık olarak, sekiz yılı aşkın SGK davaları ve sağlık hukuku alanındaki tecrübemizle, paranızı kurumdan tahsil etme sürecinizi baştan sona profesyonelce yönetiyoruz. Cebinizden çıkan ödemeleri geri almak ve haklarınızı güvenceye almak için hemen iletişim numaralarımız üzerinden bizden randevu alabilirsiniz.
+
 
 

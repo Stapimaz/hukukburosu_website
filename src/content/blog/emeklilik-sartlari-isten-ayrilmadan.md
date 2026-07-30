@@ -3,7 +3,7 @@ title: "Emeklilik Şartları: İşten Ayrılmadan Emekli Olmak Mümkün Mü?"
 description: "İşten ayrılmadan emeklilik dilekçesi verilir mi? Yıpranma payı sigorta başlangıcını geriye çeker mi? Hizmet tespiti davası ve emeklilik hakları rehberi."
 pubDate: 2026-05-01
 author: "Av. Samet Ümit"
-image: "/hukukburosu_website/images/blog/retirement_pension_law.png"
+image: "/images/blog/retirement_pension_law.png"
 tags: ["İş Hukuku", "Emeklilik", "Sosyal Güvenlik"]
 lang: "tr"
 ---
@@ -68,5 +68,6 @@ Emeklilik, sadece form doldurup kuruma teslim etmekten ibaret basit bir idari i�
 *Geleceğinizi güvence altına alırken hak kaybı yaşamamak, eksik primlerinizin tespiti ve en avantajlı şartlarla emeklilik başvurunuzu gerçekleştirmek için sekiz yılı aşkın tecrübemizle NS Hukuk ve Danışmanlık olarak yanınızdayız.*
 
 Emeklilik haklarınızla ilgili detaylı hukuki analiz almak, hizmet tespiti davalarınızı başlatmak veya mevzuata uygun doğru adımları atmak için bizimle iletişim kanallarımızdan randevu alabilirsiniz.
+
 
 

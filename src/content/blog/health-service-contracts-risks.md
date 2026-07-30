@@ -3,7 +3,7 @@ title: "Guide to SGK Contract Management and Penal Risks in Private Hospitals an
 description: "Legal risks of private health institutions under SGK contracts and Ministry of Health legislation. A guide on protection from penalties deducted from gross income and suspension of activity sanctions."
 pubDate: 2026-03-15
 author: "Atty. Öykü Naz Karaman"
-image: "/hukukburosu_website/images/blog/health_service_contract.png"
+image: "/images/blog/health_service_contract.png"
 tags: ["Health Law", "SGK Contracts", "Risk Management"]
 lang: "en"
 ---
@@ -67,5 +67,6 @@ As can be seen, penalties in health law are deducted on a percentage basis over 
 *As NS Law and Consultancy; we offer proactive health law consultancy for private hospitals, medical centers, and polyclinics. We protect your corporate rights in annulment lawsuits to be filed against unfair administrative fines and suspension of activity decisions applied by SGK/Ministry of Health.*
 
 To protect your company's operational freedom, complete your financial risk analyzes, and put your institution under legal assurance, you can contact us to make an appointment through our communication channels.
+
 
 
