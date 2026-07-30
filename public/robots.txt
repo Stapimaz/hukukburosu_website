@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nshukukdanismanlik.com/sitemap-index.xml

@@ -26,6 +26,8 @@ const metaDesc = description || (lang === 'tr'
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
     <meta name="generator" content={Astro.generator} />
     
+    <link rel="canonical" href={Astro.url.href} />
+
     <title>{title} | {t('hero.title')}</title>
     <meta name="description" content={metaDesc} />
 
