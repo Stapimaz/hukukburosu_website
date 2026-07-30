@@ -5,48 +5,23 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 const practices = [
-  {
-    icon: 'briefcase',
-    title: lang === 'tr' ? 'Ticaret ve Şirketler Hukuku' : 'Commercial & Corporate Law',
-    desc: lang === 'tr' 
-      ? 'Şirket kuruluşları, birleşme & devralmalar (M&A), genel kurul işlemleri ve kurumsal yönetişim süreçlerinde uçtan uca hukuki danışmanlık.'
-      : 'Comprehensive legal counsel on company formation, M&A transactions, general assemblies, and corporate governance.',
-  },
-  {
-    icon: 'document',
-    title: lang === 'tr' ? 'Sözleşmeler Hukuku' : 'Contract Law & Negotiations',
-    desc: lang === 'tr'
-      ? 'Ticari sözleşmelerin düzenlenmesi, uluslararası dağıtım, bayilik, lisans ve ortaklık sözleşmelerinin müzakeresi ve risk analizi.'
-      : 'Drafting and negotiation of commercial agreements, distribution, licensing, and cross-border partnership contracts with risk mitigation.',
-  },
-  {
-    icon: 'shield',
-    title: lang === 'tr' ? 'KVKK ve Veri Güvenliği' : 'Data Protection & Privacy (KVKK)',
-    desc: lang === 'tr'
-      ? '6698 sayılı KVKK ve GDPR uyum projeleri, VERBİS süreçleri, veri envanteri hazırlığı ve Kurul denetimlerine karşı hukuki koruma.'
-      : 'End-to-end compliance projects for Turkish Data Protection Law (KVKK) and GDPR, VERBİS registration, and data security audits.',
-  },
-  {
-    icon: 'home',
-    title: lang === 'tr' ? 'Gayrimenkul ve İnşaat Hukuku' : 'Real Estate & Construction',
-    desc: lang === 'tr'
-      ? 'Kat karşılığı inşaat sözleşmeleri, tapu iptal ve tescil davaları, kiralama süreçleri ve gayrimenkul yatırımları hukuki danışmanlığı.'
-      : 'Legal support for construction contracts, title deed disputes, leasing transactions, and real estate investment projects.',
-  },
-  {
-    icon: 'lightbulb',
-    title: lang === 'tr' ? 'Fikri Mülkiyet Hukuku' : 'Intellectual Property',
-    desc: lang === 'tr'
-      ? 'Marka, patent, telif hakları ile ticari sırların korunması, haksız rekabet davaları ve TÜRKPATENT nezdindeki resmi işlemler.'
-      : 'Protection of trademarks, patents, copyrights, trade secrets, unfair competition litigation, and TÜRKPATENT representation.',
-  },
-  {
-    icon: 'scale',
-    title: lang === 'tr' ? 'Uyuşmazlık Çözümü & Tahkim' : 'Dispute Resolution & Arbitration',
-    desc: lang === 'tr'
-      ? 'Ticari ve medeni uyuşmazlıklarda mahkemeler ve uluslararası tahkim kurumları nezdinde etkin, stratejik dava ve süreç takibi.'
-      : 'Strategic representation and advocacy in commercial disputes before state courts and international arbitration tribunals.',
-  },
+  { icon: 'briefcase', title: lang === 'tr' ? 'Ulusal ve Uluslararası Şirket Danışmanlığı' : 'National and International Corporate Consultancy', desc: lang === 'tr' ? 'Yerli ve yabancı şirketlerin kuruluşundan birleşme-devralma (M&A) süreçlerine, kurumsal yönetimden uluslararası ticari faaliyetlerine kadar uçtan uca stratejik hukuk danışmanlığı.' : 'End-to-end strategic legal consultancy for domestic and foreign companies, covering entity incorporation, mergers and acquisitions (M&A), corporate governance, and cross-border commercial operations.' },
+  { icon: 'briefcase', title: lang === 'tr' ? 'Ticaret ve Şirketler Hukuku' : 'Commercial and Corporate Law', desc: lang === 'tr' ? 'Şirketler arası ticari uyuşmazlıklar, ortaklar arası ihtilaflar, genel kurul süreçleri, haksız rekabet davaları ve ticari risklerin yönetimi.' : 'Management of inter-company commercial disputes, shareholder conflicts, general assembly procedures, unfair competition claims, and commercial risk mitigation.' },
+  { icon: 'document', title: lang === 'tr' ? 'Sözleşmeler Hukuku ve Risk Yönetimi' : 'Contract Law and Risk Management', desc: lang === 'tr' ? 'Ticari sözleşmelerin hazırlanması, uluslararası bayilik, distribütörlük ve lisans anlaşmalarının müzakeresi ile sözleşmesel risklerin önceden tespiti.' : 'Drafting commercial contracts, negotiating international dealership, distribution, and licensing agreements, and proactively identifying contractual risks.' },
+  { icon: 'home', title: lang === 'tr' ? 'Göç ve Vatandaşlık Hukuku' : 'Immigration and Citizenship Law', desc: lang === 'tr' ? 'Yatırım yoluyla Türk vatandaşlığı kazanımı, ikamet ve çalışma izni başvuruları, sınır dışı (deport) kararlarına itiraz, tahdit kodlarının kaldırılması ve yabancı yatırımların hukuki yönetimi.' : 'Acquisition of Turkish citizenship by investment, residence and work permit applications, challenging deportation orders, removal of restriction codes, and legal management of foreign investments.' },
+  { icon: 'scale', title: lang === 'tr' ? 'İcra-İflas Hukuku ve Kurumsal Alacak Yönetimi' : 'Execution-Bankruptcy Law and Corporate Debt Recovery', desc: lang === 'tr' ? 'Şirketlerin ve bireylerin yüksek hacimli alacaklarının tahsili, icra ve iflas takipleri, konkordato ile borç yapılandırma danışmanlığı.' : 'Recovery of high-value receivables for corporations and individuals, execution and bankruptcy proceedings, composition with creditors (concordat), and debt restructuring consultancy.' },
+  { icon: 'shield', title: lang === 'tr' ? 'KVKK ve Veri Güvenliği' : 'Data Protection and Cybersecurity (KVKK & GDPR)', desc: lang === 'tr' ? '6698 sayılı KVKK ve GDPR kapsamında şirketlerin tam uyum projeleri, VERBİS kayıtları, veri transferi sözleşmeleri ve Kurul denetim süreçleri.' : 'Full compliance projects under Law No. 6698 (KVKK) and GDPR, VERBİS registrations, cross-border data transfer agreements, and representation during Data Protection Authority audits.' },
+  { icon: 'briefcase', title: lang === 'tr' ? 'İş Hukuku ve Uyum Danışmanlığı' : 'Employment Law and Compliance Consultancy', desc: lang === 'tr' ? 'Şirketlerin iş hukuku süreçlerinin mevzuata uygunluğu, iş sözleşmeleri, işe iade ve tazminat davalarının yönetimi ile toplu iş hukuku danışmanlığı.' : 'Ensuring corporate business processes comply with labor regulations, drafting employment contracts, managing reinstatement and compensation claims, and providing collective labor law consultancy.' },
+  { icon: 'shield', title: lang === 'tr' ? 'Sosyal Güvenlik Hukuku' : 'Social Security Law', desc: lang === 'tr' ? 'SGK mevzuatına uyum danışmanlığı, emeklilik süreçleri, iş kazası ve meslek hastalığından doğan tazminat ile hizmet tespiti davalarının yürütülmesi.' : 'Consultancy on Social Security Institution (SGK) regulations, retirement procedures, occupational accident and disease claims, and service determination lawsuits.' },
+  { icon: 'home', title: lang === 'tr' ? 'Gayrimenkul, Kira ve İnşaat Hukuku' : 'Real Estate, Lease, and Construction Law', desc: lang === 'tr' ? 'Arsa payı karşılığı inşaat sözleşmeleri, kentsel dönüşüm, tapu iptal-tescil davaları, kira tespiti, tahliye davaları ve kat mülkiyeti yönetimi.' : 'Construction contracts in return for land share, urban transformation projects, title deed cancellation and registration lawsuits, lease determination, eviction proceedings, and condominium management.' },
+  { icon: 'scale', title: lang === 'tr' ? 'Sigorta ve Tazminat Hukuku' : 'Insurance and Compensation Law', desc: lang === 'tr' ? 'Maddi ve manevi tazminat talepleri, trafik ve iş kazalarından doğan zararlar, poliçe uyuşmazlıkları ve Sigorta Tahkim Komisyonu başvuruları.' : 'Pecuniary and non-pecuniary damages claims, compensation arising from traffic and occupational accidents, insurance policy disputes, and representation before the Insurance Arbitration Commission.' },
+  { icon: 'lightbulb', title: lang === 'tr' ? 'Fikri Mülkiyet Hukuku' : 'Intellectual Property Law', desc: lang === 'tr' ? 'Marka, patent, faydalı model ve tasarım tescil süreçleri, telif haklarının korunması ile fikri hak ihlallerine karşı hukuki koruma.' : 'Trademark, patent, utility model, and industrial design registration processes, protection of copyrights, and legal defense against intellectual property infringements.' },
+  { icon: 'lightbulb', title: lang === 'tr' ? 'Bilişim ve Teknoloji Hukuku' : 'Information Technology and Media Law', desc: lang === 'tr' ? 'Yazılım ve lisans sözleşmeleri, e-ticaret mevzuatına uyum, dijital varlıkların korunması ve siber güvenlik odaklı hukuki danışmanlık.' : 'Drafting software and licensing agreements, e-commerce compliance, protection of digital assets, and legal consultancy focused on cybersecurity.' },
+  { icon: 'document', title: lang === 'tr' ? 'Kamu İhale ve İdare Hukuku' : 'Public Procurement and Administrative Law', desc: lang === 'tr' ? 'Kamu ihalelerine katılım süreçleri, idari şartname analizleri, KİK itiraz başvuruları ile idari işlem ve eylemlere karşı iptal/tam yargı davaları.' : 'Assistance in public tender participation, analysis of administrative specifications, objection applications before the Public Procurement Authority (KİK), and annulment/full remedy lawsuits against administrative actions.' },
+  { icon: 'scale', title: lang === 'tr' ? 'Ceza Hukuku' : 'Criminal Law', desc: lang === 'tr' ? 'Soruşturma ve kovuşturma aşamalarında şüpheli, sanık veya mağdur sıfatıyla müdafilik, vekillik ve etkili savunma hizmetleri.' : 'Effective defense and legal representation as defense counsel, victim\'s attorney, or intervenor during investigation and prosecution phases.' },
+  { icon: 'home', title: lang === 'tr' ? 'Aile ve Boşanma Hukuku' : 'Family and Divorce Law', desc: lang === 'tr' ? 'Anlaşmalı ve çekişmeli boşanma davaları, velayet, nafaka, tazminat ile eşler arasındaki mal rejiminin tasfiyesi süreçleri.' : 'Uncontested and contested divorce proceedings, child custody, alimony, compensation claims, and the liquidation of matrimonial property regimes.' },
+  { icon: 'document', title: lang === 'tr' ? 'Miras Hukuku' : 'Inheritance Law', desc: lang === 'tr' ? 'Vasiyetname ve miras sözleşmelerinin düzenlenmesi, tenkis, muris muvazaası (mirastan mal kaçırma) ve tereke paylaşım davaları.' : 'Drafting wills and inheritance contracts, lawsuits for reduction, claims regarding sham transactions to evade inheritance , and estate division proceedings.' },
+  { icon: 'briefcase', title: lang === 'tr' ? 'Kooperatifler Hukuku' : 'Cooperatives Law', desc: lang === 'tr' ? 'Kooperatif kuruluşları, anasözleşme hazırlanması, genel kurul kararlarının iptali, üyelikten çıkarma ve yönetim sorumluluk davaları.' : 'Establishment of cooperatives, drafting articles of association, annulment of general assembly decisions, expulsion of members, and management liability lawsuits.' }
 ];
 ---
 
@@ -111,3 +86,4 @@ const practices = [
 
   </div>
 </section>
+
