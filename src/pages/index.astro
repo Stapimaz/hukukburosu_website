@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Hero from '../components/Hero.astro';
 import PracticeAreas from '../components/PracticeAreas.astro';
 import TeamSection from '../components/TeamSection.astro';
+import References from '../components/References.astro';
 import BlogCard from '../components/BlogCard.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, url } from '../i18n/utils';
@@ -57,6 +58,8 @@ const latestPosts = allPosts
 
     </div>
   </section>
+
+  <References />
 
   <!-- CTA Banner Section -->
   <section class="py-20 bg-gradient-to-r from-navy-950 via-navy-900 to-navy-950 text-white relative overflow-hidden border-t border-gold-500/20">
