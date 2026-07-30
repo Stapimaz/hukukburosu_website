@@ -2,7 +2,8 @@
 title: "Consumer Arbitration Committee or Consumer Court? | Execution Proceedings After the Decision"
 description: "How do you get your money back when you purchase defective goods or services? A guide to the Consumer Arbitration Committee application conditions, court process, and execution proceedings after the arbitration committee decision."
 pubDate: 2026-02-01
-author: "Av. Öykü Naz Karaman"
+author: "Atty. Öykü Naz Karaman"
+image: "/hukukburosu_website/images/blog/consumer_rights_law.png"
 tags: ["Consumer Rights", "Arbitration Committee", "Lawsuit Guide"]
 lang: "en"
 ---
@@ -61,4 +62,5 @@ Although consumer law seems easy at first glance; tracking prescriptive periods,
 *As NS Law and Consultancy; we defend consumers' rights to the end in disputes over defective vehicles, housing, electronic goods, package tours, and all kinds of distance sales (internet shopping). With the confidence provided by over eight years of experience, we make your arbitration committee applications completely, manage your mediation processes, and collect your money from the seller along with legal interest by quickly putting the decisions we win into execution.*
 
 To put an end to your grievance, entrust your rights to a professional team, and securely get your money back, you can make an appointment through our communication form without wasting time.
+
 

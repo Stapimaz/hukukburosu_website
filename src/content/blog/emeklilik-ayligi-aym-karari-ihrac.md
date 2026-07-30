@@ -2,7 +2,8 @@
 title: "KHK ve İhraç Edilen Memurların Emekli İkramiyesi Hakkı (Güncel AYM Kararı)"
 description: "Kamudan ihraç edilen memurlar emekli ikramiyesi alabilir mi? Anayasa Mahkemesi emsal kararı ve SGK emekli ikramiyesi davası rehberi."
 pubDate: 2026-05-15
-author: "Atty. Samet Soyisim"
+author: "Av. Samet Ümit"
+image: "/hukukburosu_website/images/blog/gavel_courthouse_aym.png"
 tags: ["İdare Hukuku", "Emeklilik İkramiyesi", "AYM Kararı"]
 lang: "tr"
 ---
@@ -67,4 +68,5 @@ SGK, mahkemelerin bu iptal kararlarına rağmen kurum politikasını değiştirm
 *NS Hukuk ve Danışmanlık olarak, kamudan ihraç edilen müvekkillerimizin idari başvuru süreçlerini titizlikle yönetiyor, sekiz yılı aşkın tecrübemizle SGK'ya karşı açılacak iptal davalarında hak ettiğiniz emekli ikramiyesini yasal faiziyle birlikte almanızı sağlıyoruz.*
 
 Hak kaybına uğramadan, emekli ikramiyesi hakkınızı güvenle talep etmek ve davanızı başlatmak için bizimle web sitemizde bulunan formu doldurarak veya doğrudan iletişim kanallarımızdan randevu alabilirsiniz.
+
 

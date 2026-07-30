@@ -21,12 +21,24 @@ const articleUrl = url(lang === 'tr'
   : `/en/articles/${post.slug}`);
 ---
 
-<article class="bg-glass-card rounded-lg p-6 sm:p-8 flex flex-col justify-between border border-navy-900/5 dark:border-white/5 hover:border-gold-500/60 transition-all duration-300 group shadow-md hover:shadow-xl relative overflow-hidden">
+<article class="bg-glass-card rounded-lg flex flex-col justify-between border border-navy-900/5 dark:border-white/5 hover:border-gold-500/60 transition-all duration-300 group shadow-md hover:shadow-xl relative overflow-hidden">
   
   <!-- Accent Border Top -->
-  <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-gold-500 via-gold-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+  <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-gold-500 via-gold-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
 
-  <div class="space-y-4">
+  {post.data.image && (
+    <a href={articleUrl} class="block relative h-48 w-full overflow-hidden border-b border-navy-900/5 dark:border-white/5">
+      <img 
+        src={post.data.image} 
+        alt={post.data.title} 
+        class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" 
+      />
+      <div class="absolute inset-0 bg-navy-950/10 group-hover:bg-transparent transition-colors duration-300"></div>
+    </a>
+  )}
+
+  <div class="p-6 sm:p-8 flex flex-col justify-between flex-1">
+    <div class="space-y-4">
     <!-- Meta Info -->
     <div class="flex items-center justify-between text-[11px] font-semibold tracking-wider uppercase text-gold-600 dark:text-gold-400">
       <span>{formattedDate}</span>
@@ -68,6 +80,7 @@ const articleUrl = url(lang === 'tr'
     <span class="text-[11px] text-navy-500 dark:text-cream-400/60 italic">
       {lang === 'tr' ? '4 dk okuma' : '4 min read'}
     </span>
+  </div>
   </div>
 
 </article>

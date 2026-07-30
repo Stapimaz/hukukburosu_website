@@ -3,6 +3,7 @@ title: "SGK Kanser İlacını Ödemiyor mu? Akıllı İlaç Davası ve Geri Öde
 description: "SGK tarafından karşılanmayan akıllı kanser ilaçları ve immünoterapi bedelleri dava yoluyla nasıl alınır? İhtiyati tedbir kararıyla ücretsiz ilaç alma rehberi."
 pubDate: 2026-04-15
 author: "Av. Öykü Naz Karaman"
+image: "/hukukburosu_website/images/blog/medical_law_drugs.png"
 tags: ["Sağlık Hukuku", "SGK Davaları", "Hasta Hakları"]
 lang: "tr"
 ---
@@ -62,4 +63,5 @@ SGK'ya karşı açılacak bu davalar tamamen teknik ve tıbbi uzmanlık gerektir
 SGK akıllı ilaç davaları; hak düşürücü sürelerin takibi, endikasyon dışı kullanım izinlerinin analizi, onkoloji heyet raporlarının organize edilmesi ve Anayasa Mahkemesi'nin "başvuru yollarının tüketilmesi" kurallarına tam uyum sağlanması bakımından mutlak surette bir uzman avukatın desteğini gerektirir. Hatalı veya rastgele açılan davalar ne yazık ki usul eksiklikleri nedeniyle reddedilebilmekte ve telafisi imkansız sonuçlar doğurabilmektedir.
 
 *Kanserle mücadele ederken bir de bürokrasinin hantal çarklarıyla ve hukuki prosedürlerle savaşmak zorunda değilsiniz. Sağlık hakkınızın, zamanınızın ve geleceğinizin bürokratik engellere takılmaması, SGK tarafından reddedilen kanser ilaçlarınızın bedelini yasal faiziyle geri almak ve tedbir kararıyla tedavinize ücretsiz devam edebilmek için iletişim kanallarımız üzerinden bizimle iletişime geçebilirsiniz.*
+
 

@@ -2,7 +2,8 @@
 title: "İşveren Rehberi: İş Kazası Bildirimi Gecikirse Ne Yapılmalıdır?"
 description: "İşverenler için iş kazası bildirim süresinin kaçırılması halinde doğacak riskler, SGK rücu davalarından korunma yolları ve hukuki çözüm haritası."
 pubDate: 2026-02-15
-author: "Atty. Samet Soyisim"
+author: "Av. Samet Ümit"
+image: "/hukukburosu_website/images/blog/workplace_accident_reporting.png"
 tags: ["İş Hukuku", "İş Kazası", "İşveren Hakları"]
 lang: "tr"
 ---
@@ -55,4 +56,5 @@ Kazanın ilk anından itibaren süreci bir avukat rehberliğinde yönetmek; iş 
 *NS Hukuk ve Danışmanlık olarak; işveren müvekkillerimizin kurumsal haklarını korumak, hatalı veya gecikmiş iş kazası bildirimlerinden kaynaklanan SGK uyuşmazlıklarını çözmek ve şirket aleyhine açılabilecek haksız tazminat davalarında güçlü bir savunma mekanizması kurmak adına proaktif hukuki danışmanlık hizmeti sunuyoruz.*
 
 Şirketinizin mali risklerini kontrol altına almak, cezai yaptırımlardan korunmak ve mevcut iş kazası süreçlerinizi hukuki güvenceye kavuşturmak için iletişim kanallarımız üzerinden bizimle doğrudan iletişime geçebilirsiniz.
+
 
