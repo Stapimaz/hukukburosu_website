@@ -3,8 +3,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://Stapimaz.github.io',
-  base: '/hukukburosu_website',
+  site: 'https://nshukukdanismanlik.com',
   integrations: [
     tailwind({
       applyBaseStyles: false,
