@@ -5,16 +5,15 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<section class="relative w-full py-12 sm:py-16 lg:py-20 bg-gradient-to-r from-navy-950 via-navy-900 to-navy-950 text-white overflow-hidden border-b-2 border-gold-500/40 shadow-2xl">
-  <!-- Subtle Architectural Pattern & Glow (Full Width, No Photos, No Badges) -->
-  <div class="absolute inset-0 z-0 pointer-events-none">
-    <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent"></div>
-    <div class="absolute inset-0 bg-[radial-gradient(#C5A880_1px,transparent_1px)] [background-size:32px_32px] opacity-[0.07]"></div>
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-gold-500/10 rounded-full blur-[120px]"></div>
+<section class="relative w-full py-16 sm:py-20 lg:py-24 bg-navy-950 text-white overflow-hidden border-b border-gold-500/20 shadow-2xl">
+  <!-- Dynamic Background Image with Dark Overlay -->
+  <div class="absolute inset-0 z-0">
+    <img src="/images/hero-bg-marble.png" alt="Hero Background" class="w-full h-full object-cover opacity-60 mix-blend-luminosity" />
+    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-navy-900/40"></div>
   </div>
 
-  <!-- Full-Width Widescreen Content Container (Compact Height, Tight Spacing) -->
-  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 sm:space-y-8 animate-fade-in">
+  <!-- Full-Width Widescreen Content Container -->
+  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8 sm:space-y-10">
     
     <!-- Top Tag (Editorial Letterpress, No Badge, No Box) -->
     <div class="flex items-center justify-center gap-3 sm:gap-4 text-gold-400 text-xs sm:text-sm tracking-[0.25em] uppercase font-semibold">
