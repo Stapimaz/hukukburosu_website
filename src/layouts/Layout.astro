@@ -14,8 +14,8 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 const metaDesc = description || (lang === 'tr' 
-  ? 'NS Hukuk Bürosu & Danışmanlık - Av. Samet Ümit ve Av. Öykü Naz Karaman tarafından kurulan, Ankara merkezli kurumsal, stratejik ve güvenilir hukuki çözüm ortaklığı. İcra, Ticaret ve İş Hukuku alanlarında uzman.'
-  : 'NS Law Firm & Consultancy - Based in Ankara, providing strategic, reliable, and modern corporate legal solutions founded by Atty. Samet Ümit & Atty. Öykü Naz Karaman.');
+  ? 'Ankara merkezli NS Hukuk & Danışmanlık. Şirketler Hukuku, Ticaret Hukuku, İş Hukuku, İcra-İflas ve Gayrimenkul davalarında uzman, stratejik ve güvenilir hukuki çözüm ortağınız.'
+  : 'Ankara-based NS Law Firm providing strategic and reliable legal solutions in Corporate, Commercial, Employment, Execution, and Real Estate Law.');
 ---
 
 <!doctype html>
@@ -25,6 +25,7 @@ const metaDesc = description || (lang === 'tr'
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
     <meta name="generator" content={Astro.generator} />
+    <meta name="google-site-verification" content="0vP50oGu-xds-S65Dc88Nf-gNlgXSaWq9RRVA_0YDtQ" />
     
     <link rel="canonical" href={Astro.url.href} />
 
