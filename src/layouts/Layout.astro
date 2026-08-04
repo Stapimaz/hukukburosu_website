@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { getLangFromUrl, useTranslations, url } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, url, getRouteFromUrl } from '../i18n/utils';
 
 interface Props {
   title: string;
@@ -16,6 +16,9 @@ const t = useTranslations(lang);
 const metaDesc = description || (lang === 'tr' 
   ? 'Ankara merkezli NS Hukuk & Danışmanlık. Şirketler Hukuku, Ticaret Hukuku, İş Hukuku, İcra-İflas ve Gayrimenkul davalarında uzman, stratejik ve güvenilir hukuki çözüm ortağınız.'
   : 'Ankara-based NS Law Firm providing strategic and reliable legal solutions in Corporate, Commercial, Employment, Execution, and Real Estate Law.');
+
+const trUrl = new URL(getRouteFromUrl(Astro.url, 'tr'), Astro.site || Astro.url.origin).href;
+const enUrl = new URL(getRouteFromUrl(Astro.url, 'en'), Astro.site || Astro.url.origin).href;
 ---
 
 <!doctype html>
@@ -28,6 +31,9 @@ const metaDesc = description || (lang === 'tr'
     <meta name="google-site-verification" content="0vP50oGu-xds-S65Dc88Nf-gNlgXSaWq9RRVA_0YDtQ" />
     
     <link rel="canonical" href={Astro.url.href} />
+    <link rel="alternate" hreflang="tr" href={trUrl} />
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="x-default" href={trUrl} />
 
     <title>{title} | {t('hero.title')}</title>
     <meta name="description" content={metaDesc} />
